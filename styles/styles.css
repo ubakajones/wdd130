@@ -22,7 +22,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 1rem;
-    box-shadow: inset;
+    box-shadow: 5px 5px;
 
 }
 
@@ -41,6 +41,12 @@ nav {
     color: #333;
     padding: 1rem;
     display: block;
+}
+
+nav a {
+    padding: 1rem;
+    display: block;
+    color: #333;
 }
 
 h1 {
