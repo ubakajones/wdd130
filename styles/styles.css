@@ -19,6 +19,11 @@ aside img {
 
 main img {
     width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: inset;
+
 }
 
 p {
@@ -29,4 +34,15 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+nav {
+    background-color: azure;
+    color: #333;
+    padding: 1rem;
+    display: block;
+}
+
+h1 {
+    color: #333;
 }
