@@ -14,7 +14,6 @@
     align-items: center;
 } */
 
-
 .header img {
     width: 40px;
     overflow: hidden;
@@ -36,7 +35,6 @@ li {
     list-style: none;
     margin-bottom: 90px;
 }
-
 
 a {
     color: rgb(236, 194, 4);
@@ -128,7 +126,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #d89c00;
 }
-
 
 /* SIGN UP */
 
@@ -232,7 +229,6 @@ input[type="submit"]:hover {
     margin-bottom: 15px;
 }
 
-
 .contact-container {
     max-width: 600px;
     margin: auto;
@@ -284,7 +280,6 @@ button {
 button:hover {
     background-color: #005fa3;
 }
-
 
 .employees {
     text-align: center;
@@ -366,7 +361,6 @@ button[type="submit"]:hover {
     background-color: #005fa3;
 }
 
-
 .employees {
     display: flex;
     justify-content: center;
@@ -407,7 +401,6 @@ button[type="submit"]:hover {
 .contact-form button:hover {
     background-color: #004070;
 }
-
 
 /* FOOTER */
 
@@ -548,50 +541,50 @@ footer {
    ABOUT PAGE
 ========================== */
 
-.history-section{
-    max-width:900px;
-    margin:50px auto;
-    padding:20px;
+.history-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
 }
 
-.history-section h1{
-    margin-bottom:20px;
+.history-section h1 {
+    margin-bottom: 20px;
 }
 
-.history-section p{
-    line-height:1.8;
-    margin-bottom:15px;
+.history-section p {
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
 
-.adventure-section{
-    padding:40px;
+.adventure-section {
+    padding: 40px;
 }
 
-.adventure-section h1{
-    margin-bottom:30px;
+.adventure-section h1 {
+    margin-bottom: 30px;
 }
 
-.gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
 }
 
-.gallery figure{
-    background:#fff;
-    border-radius:10px;
-    overflow:hidden;
-    box-shadow:0 2px 8px rgba(0,0,0,.15);
+.gallery figure {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
 }
 
-.gallery img{
-    width:100%;
-    height:220px;
-    object-fit:cover;
+.gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
 
-.gallery figcaption{
-    padding:12px;
-    text-align:center;
-    font-weight:bold;
+.gallery figcaption {
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
 }
