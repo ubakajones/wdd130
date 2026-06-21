@@ -1,0 +1,1999 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://byui-cse.github.io/cse111-ww-course/week05/prepare-1.html#process_rows
+Subject: CSE 111 | Learning Activities
+Date: Sat, 20 Jun 2026 09:02:50 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----"
+
+
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----
+Content-Type: text/html
+Content-ID: <frame-34D439D1400C02207B22AB001C810E1C@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse111-ww-course/week05/prepare-1.html#process_rows
+
+<!DOCTYPE html><html lang=3D"en-us"><head><meta http-equiv=3D"Content-Type"=
+ content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-688b9fde-4f9c-4235-8d46-bdcbee3c36f5@mhtml.blink" /=
+>
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+  <title>CSE 111 | Learning Activities</title>
+  <link rel=3D"apple-touch-icon" sizes=3D"180x180" href=3D"https://byui-cse=
+.github.io/cse-ww-program-pt/apple-touch-icon.png">
+  <link rel=3D"icon" type=3D"image/png" href=3D"https://byui-cse.github.io/=
+cse-ww-program-pt/favicon-32x32.png">
+  <link rel=3D"icon" type=3D"image/png" href=3D"https://byui-cse.github.io/=
+cse-ww-program-pt/favicon-16x16.png">
+  <link rel=3D"preconnect" href=3D"https://fonts.googleapis.com/">
+  <link rel=3D"preconnect" href=3D"https://fonts.gstatic.com/" crossorigin=
+=3D"">
+  <link href=3D"https://fonts.googleapis.com/css2?family=3DMontserrat&amp;f=
+amily=3DOpen+Sans&amp;display=3Dswap" rel=3D"stylesheet">
+  <link rel=3D"stylesheet" href=3D"https://byui-cse.github.io/cse111-ww-cou=
+rse/styles/course.css">
+  <link rel=3D"stylesheet" href=3D"https://byui-cse.github.io/cse111-ww-cou=
+rse/styles/math.css">
+  <link rel=3D"stylesheet" href=3D"https://cdnjs.cloudflare.com/ajax/libs/h=
+ighlight.js/11.9.0/styles/vs2015.min.css">
+ =20
+</head>
+
+<body data-new-gr-c-s-check-loaded=3D"14.1304.0" data-gr-ext-installed=3D""=
+>
+  <header>
+    <div class=3D"page">
+      <h1>CSE 111<span id=3D"coursetitle">: Programming with Functions</spa=
+n></h1>
+      <img src=3D"https://byui-cse.github.io/cse111-ww-course/images/byui-l=
+ogo.svg" alt=3D"BYU-I logo" class=3D"logo">
+    </div>
+  </header>
+  <main class=3D"page">
+    <nav id=3D"autogen-top-nav">
+      <!-- This nav is auto-generated -->
+      <span><a href=3D"https://byui-cse.github.io/cse111-ww-course/index.ht=
+ml">Home</a></span>
+      <span><a href=3D"https://byui-cse.github.io/cse111-ww-course/week01/i=
+ndex.html">W1</a></span>
+      <span><a href=3D"https://byui-cse.github.io/cse111-ww-course/week02/i=
+ndex.html">W2</a></span>
+      <span><a href=3D"https://byui-cse.github.io/cse111-ww-course/week03/i=
+ndex.html">W3</a></span>
+      <span><a href=3D"https://byui-cse.github.io/cse111-ww-course/week04/i=
+ndex.html">W4</a></span>
+      <span class=3D"active"><a href=3D"https://byui-cse.github.io/cse111-w=
+w-course/week05/index.html">W5</a></span>
+      <span><a href=3D"https://byui-cse.github.io/cse111-ww-course/week06/i=
+ndex.html">W6</a></span>
+      <span><a href=3D"https://byui-cse.github.io/cse111-ww-course/week07/i=
+ndex.html">W7</a></span>
+      <!-- end auto-generated -->
+    </nav>
+    <h2>W05 Learning Activity (1 of 2): Text Files</h2>
+    <p>Most computers permanently store lots of data on devices such as
+      hard drives, solid state drives, and thumb drives. The data that is
+      stored on these devices is organized into files. Just as a human can
+      write words on a paper. A computer can store words and other data in
+      a file. During this lesson, you will learn how to write Python code
+      that reads text from text files.</p>
+    <h3 id=3D"concepts">Concepts</h3>
+    <p>Broadly speaking, there are two types of files: text files and
+      binary files. A <dfn>text file</dfn> stores words and numbers as
+      human readable text. A <dfn>binary file</dfn> stores pictures,
+      diagrams, sounds, music, movies, and other media as numbers in a
+      format that is not directly readable by humans.</p>
+    <h4 id=3D"text_files">Text Files</h4>
+    <p>In order to read data from a text file, the file must exist on
+      one of the computer=E2=80=99s drives, and your program must do these =
+three
+      things:</p>
+    <ol>
+      <li>
+        <div>Open the file for reading text</div>
+      </li>
+      <li>
+        <div>Read from the file, usually one line of text at a
+          time</div>
+      </li>
+      <li>
+        <div>Close the file</div>
+      </li>
+    </ol>
+    <p>The built-in <code>open</code> function
+      opens a file for reading or writing. Here is an excerpt
+      from the official documentation for the <code>open</code>
+      function:</p>
+    <dl class=3D"function">
+      <dt>
+        <pre><code class=3D"language-python hljs" data-highlighted=3D"yes">=
+<span class=3D"hljs-built_in">open</span>(filename, mode=3D<span class=3D"h=
+ljs-string">"rt"</span>)</code></pre>
+      </dt>
+      <dd>
+        <p>Open a file and return a corresponding file
+          object.</p>
+        <p><var>filename</var> is the name of the file to be
+          opened.</p>
+        <p><var>mode</var> is an optional string that specifies the
+          mode in which the file will be opened. It defaults to
+          <code>"rt"</code> which means open for reading in text mode.
+          Other common values are <code>"wt"</code> for writing a text
+          file (truncating the file if it already exists), and
+          <code>"at"</code> for appending to the end of a text
+          file.
+        </p>
+      </dd>
+    </dl>
+    <p>Example&nbsp;1 contains a program that opens a text file named
+      <a download=3D"download" href=3D"https://byui-cse.github.io/cse111-ww=
+-course/week05/samples/plants.txt"><code>plants.txt</code></a>
+      for reading at line&nbsp;20.
+      At line&nbsp;23 there is a
+      <code>for</code> loop that reads the text in the file one line at a
+      time and repeats the body of the for loop once <code>for</code> each
+      line of text in the file. In the body of the <code>for</code> loop
+      at lines&nbsp;24=E2=80=9329,
+      the code removes surrounding white space, if there is any, from each
+      line of text and then stores each line of text in a list.
+    </p>
+    <div id=3D"ex1">
+
+      <pre><code class=3D"language-python hljs" data-highlighted=3D"yes"><t=
+able class=3D"hljs-ln"><tbody><tr><td class=3D"hljs-ln-line hljs-ln-numbers=
+" data-line-number=3D"1"><div class=3D"hljs-ln-n" data-line-number=3D"1"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"1"><sp=
+an class=3D"hljs-comment"># Example 1</span></td></tr><tr><td class=3D"hljs=
+-ln-line hljs-ln-numbers" data-line-number=3D"2"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"2"></div></td><td class=3D"hljs-ln-line hljs-ln-code" da=
+ta-line-number=3D"2"><span class=3D"hljs-keyword">def</span> <span class=3D=
+"hljs-title function_">main</span>():</td></tr><tr><td class=3D"hljs-ln-lin=
+e hljs-ln-numbers" data-line-number=3D"3"><div class=3D"hljs-ln-n" data-lin=
+e-number=3D"3"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line=
+-number=3D"3">    <span class=3D"hljs-comment"># Read the contents of a tex=
+t file</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-=
+line-number=3D"4"><div class=3D"hljs-ln-n" data-line-number=3D"4"></div></t=
+d><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"4">    <span =
+class=3D"hljs-comment"># named plants.txt into a list.</span></td></tr><tr>=
+<td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"5"><div clas=
+s=3D"hljs-ln-n" data-line-number=3D"5"></div></td><td class=3D"hljs-ln-line=
+ hljs-ln-code" data-line-number=3D"5">    text_list =3D read_list(<span cla=
+ss=3D"hljs-string">"plants.txt"</span>)</td></tr><tr><td class=3D"hljs-ln-l=
+ine hljs-ln-numbers" data-line-number=3D"6"><div class=3D"hljs-ln-n" data-l=
+ine-number=3D"6"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-li=
+ne-number=3D"6">    <span class=3D"hljs-comment"># Print the entire list.</=
+span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-num=
+ber=3D"7"><div class=3D"hljs-ln-n" data-line-number=3D"7"></div></td><td cl=
+ass=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"7">    <span class=3D=
+"hljs-built_in">print</span>(text_list)</td></tr><tr><td class=3D"hljs-ln-l=
+ine hljs-ln-numbers" data-line-number=3D"8"><div class=3D"hljs-ln-n" data-l=
+ine-number=3D"8"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-li=
+ne-number=3D"8"><span class=3D"hljs-keyword">def</span> <span class=3D"hljs=
+-title function_">read_list</span>(<span class=3D"hljs-params">filename</sp=
+an>):</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-num=
+ber=3D"9"><div class=3D"hljs-ln-n" data-line-number=3D"9"></div></td><td cl=
+ass=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"9">    <span class=3D=
+"hljs-string"><span class=3D"hljs-string">"""Read the contents of a text fi=
+le into a list and</span></span></td></tr><tr><td class=3D"hljs-ln-line hlj=
+s-ln-numbers" data-line-number=3D"10"><div class=3D"hljs-ln-n" data-line-nu=
+mber=3D"10"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-nu=
+mber=3D"10"><span class=3D"hljs-string">    return the list. Each element i=
+n the list will contain</span></td></tr><tr><td class=3D"hljs-ln-line hljs-=
+ln-numbers" data-line-number=3D"11"><div class=3D"hljs-ln-n" data-line-numb=
+er=3D"11"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-numb=
+er=3D"11"><span class=3D"hljs-string">    one line of text from the text fi=
+le.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-lin=
+e-number=3D"12"><div class=3D"hljs-ln-n" data-line-number=3D"12"></div></td=
+><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"12"><span clas=
+s=3D"hljs-string">    Parameter filename: the name of the text file to read=
+</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-n=
+umber=3D"13"><div class=3D"hljs-ln-n" data-line-number=3D"13"></div></td><t=
+d class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"13"><span class=
+=3D"hljs-string">    Return: a list of strings</span></td></tr><tr><td clas=
+s=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"14"><div class=3D"hl=
+js-ln-n" data-line-number=3D"14"></div></td><td class=3D"hljs-ln-line hljs-=
+ln-code" data-line-number=3D"14"><span class=3D"hljs-string">    """</span>=
+</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"15"><div class=3D"hljs-ln-n" data-line-number=3D"15"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"15">    <span class=3D=
+"hljs-comment"># Create an empty list that will store</span></td></tr><tr><=
+td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"16"><div clas=
+s=3D"hljs-ln-n" data-line-number=3D"16"></div></td><td class=3D"hljs-ln-lin=
+e hljs-ln-code" data-line-number=3D"16">    <span class=3D"hljs-comment"># =
+the lines of text from the text file.</span></td></tr><tr><td class=3D"hljs=
+-ln-line hljs-ln-numbers" data-line-number=3D"17"><div class=3D"hljs-ln-n" =
+data-line-number=3D"17"></div></td><td class=3D"hljs-ln-line hljs-ln-code" =
+data-line-number=3D"17">    text_list =3D []</td></tr><tr><td class=3D"hljs=
+-ln-line hljs-ln-numbers" data-line-number=3D"18"><div class=3D"hljs-ln-n" =
+data-line-number=3D"18"></div></td><td class=3D"hljs-ln-line hljs-ln-code" =
+data-line-number=3D"18">    <span class=3D"hljs-comment"># Open the text fi=
+le for reading and store a reference</span></td></tr><tr><td class=3D"hljs-=
+ln-line hljs-ln-numbers" data-line-number=3D"19"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"19"></div></td><td class=3D"hljs-ln-line hljs-ln-code" d=
+ata-line-number=3D"19">    <span class=3D"hljs-comment"># to the opened fil=
+e in a variable named text_file.</span></td></tr><tr><td class=3D"hljs-ln-l=
+ine hljs-ln-numbers" data-line-number=3D"20"><div class=3D"hljs-ln-n" data-=
+line-number=3D"20"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-=
+line-number=3D"20">    <span class=3D"hljs-keyword">with</span> <span class=
+=3D"hljs-built_in">open</span>(filename, <span class=3D"hljs-string">"rt"</=
+span>) <span class=3D"hljs-keyword">as</span> text_file:</td></tr><tr><td c=
+lass=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"21"><div class=3D=
+"hljs-ln-n" data-line-number=3D"21"></div></td><td class=3D"hljs-ln-line hl=
+js-ln-code" data-line-number=3D"21">        <span class=3D"hljs-comment"># =
+Read the contents of the text</span></td></tr><tr><td class=3D"hljs-ln-line=
+ hljs-ln-numbers" data-line-number=3D"22"><div class=3D"hljs-ln-n" data-lin=
+e-number=3D"22"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-lin=
+e-number=3D"22">        <span class=3D"hljs-comment"># file one line at a t=
+ime.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-li=
+ne-number=3D"23"><div class=3D"hljs-ln-n" data-line-number=3D"23"></div></t=
+d><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"23">        <=
+span class=3D"hljs-keyword">for</span> line <span class=3D"hljs-keyword">in=
+</span> text_file:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" =
+data-line-number=3D"24"><div class=3D"hljs-ln-n" data-line-number=3D"24"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"24">  =
+          <span class=3D"hljs-comment"># Remove white space, if there is an=
+y,</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line=
+-number=3D"25"><div class=3D"hljs-ln-n" data-line-number=3D"25"></div></td>=
+<td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"25">           =
+ <span class=3D"hljs-comment"># from the beginning and end of the line.</sp=
+an></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-numbe=
+r=3D"26"><div class=3D"hljs-ln-n" data-line-number=3D"26"></div></td><td cl=
+ass=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"26">            clean=
+_line =3D line.strip()</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbe=
+rs" data-line-number=3D"27"><div class=3D"hljs-ln-n" data-line-number=3D"27=
+"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"27=
+">            <span class=3D"hljs-comment"># Append the clean line of text<=
+/span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-nu=
+mber=3D"28"><div class=3D"hljs-ln-n" data-line-number=3D"28"></div></td><td=
+ class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"28">            <s=
+pan class=3D"hljs-comment"># onto the end of the list.</span></td></tr><tr>=
+<td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"29"><div cla=
+ss=3D"hljs-ln-n" data-line-number=3D"29"></div></td><td class=3D"hljs-ln-li=
+ne hljs-ln-code" data-line-number=3D"29">            text_list.append(clean=
+_line)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-nu=
+mber=3D"30"><div class=3D"hljs-ln-n" data-line-number=3D"30"></div></td><td=
+ class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"30">    <span clas=
+s=3D"hljs-comment"># Return the list that contains the lines of text.</span=
+></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"31"><div class=3D"hljs-ln-n" data-line-number=3D"31"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"31">    <span class=3D=
+"hljs-keyword">return</span> text_list</td></tr><tr><td class=3D"hljs-ln-li=
+ne hljs-ln-numbers" data-line-number=3D"32"><div class=3D"hljs-ln-n" data-l=
+ine-number=3D"32"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-l=
+ine-number=3D"32"><span class=3D"hljs-comment"># Call main to start this pr=
+ogram.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-=
+line-number=3D"33"><div class=3D"hljs-ln-n" data-line-number=3D"33"></div><=
+/td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"33"><span c=
+lass=3D"hljs-keyword">if</span> __name__ =3D=3D <span class=3D"hljs-string"=
+>"__main__"</span>:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers"=
+ data-line-number=3D"34"><div class=3D"hljs-ln-n" data-line-number=3D"34"><=
+/div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"34"> =
+   main()</td></tr></tbody></table></code></pre>
+      <pre class=3D"console">&gt; python example_1.py
+['baobab', 'kangaroo paw', 'eucalyptus', 'heliconia', 'tulip',
+'chupasangre cactus', 'prickly pear cactus', 'ginkgo biloba']</pre>
+    </div>
+    <p>After the body of a <code>for</code> loop that reads from a
+      file, we can write a call to the <code>file.close</code> method.
+      However, when calling the <code>open</code> function, most
+      programmers use a <code>with</code> block as shown in example&nbsp;1
+      at line&nbsp;20 and nest
+      the <code>for</code> loop inside the <code>with</code> block as
+      shown at
+      lines&nbsp;23=E2=80=9329.
+      When the <code>with</code> block ends, the computer will
+      automatically close the file, so that the programmer doesn=E2=80=99t =
+have to
+      write a call to the <code>file.close</code> method.</p>
+    <h4 id=3D"csv_files">CSV Files</h4>
+    <p>Many computer systems import and export data in CSV files. CSV is
+      an acronym for comma separated values. A <dfn>CSV file</dfn> is a
+      text file that contains tabular data with each row on a separate
+      line of the file and each cell (column) separated by a comma. The
+      following example shows the contents of a CSV file named
+      <a download=3D"" href=3D"https://byui-cse.github.io/cse111-ww-course/=
+week05/samples/hymns.csv"><code>hymns.csv</code></a> that stores
+      data about religious songs. Notice that the first row of the file
+      contains column headings, the next four rows contain data about four
+      hymns, and each row contains three columns separated by commas.
+    </p>
+    <div>
+      <pre class=3D"csv">Title,Author,Composer
+O Holy Night,John Dwight,Adolphe Adam
+Away in a Manger,Anonymous,William Kirkpatrick
+Joy to the World,Isaac Watts,George Handel
+With Wondering Awe,Anonymous,Anonymous
+</pre>
+    </div>
+    <p>Python has a standard
+      module named <code>csv</code>
+      that includes functionality to read from and write to CSV files. The
+      program in example&nbsp;2 shows how to open a CSV file and use the
+      <code>csv</code> module to read the data and print it to a terminal
+      window. In example&nbsp;2 at
+      line&nbsp;6, there is a
+      call to the Python built-in <code>open</code> function, which opens
+      the <code>hymns.csv</code> file for reading. At
+      line&nbsp;9, the program
+      creates a <code>csv.reader</code> object that will read from the
+      <code>hymns.csv</code> file. Within the <code>for</code> loop at
+      lines&nbsp;12 and&nbsp;13
+      the <code>csv.reader</code> reads and prints each row from the CSV
+      file.
+    </p>
+    <div id=3D"ex2">
+
+      <pre><code class=3D"language-python hljs" data-highlighted=3D"yes"><t=
+able class=3D"hljs-ln"><tbody><tr><td class=3D"hljs-ln-line hljs-ln-numbers=
+" data-line-number=3D"1"><div class=3D"hljs-ln-n" data-line-number=3D"1"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"1"><sp=
+an class=3D"hljs-comment"># Example 2</span></td></tr><tr><td class=3D"hljs=
+-ln-line hljs-ln-numbers" data-line-number=3D"2"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"2"></div></td><td class=3D"hljs-ln-line hljs-ln-code" da=
+ta-line-number=3D"2"><span class=3D"hljs-keyword">import</span> csv</td></t=
+r><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"3"><di=
+v class=3D"hljs-ln-n" data-line-number=3D"3"></div></td><td class=3D"hljs-l=
+n-line hljs-ln-code" data-line-number=3D"3"><span class=3D"hljs-keyword">de=
+f</span> <span class=3D"hljs-title function_">main</span>():</td></tr><tr><=
+td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"4"><div class=
+=3D"hljs-ln-n" data-line-number=3D"4"></div></td><td class=3D"hljs-ln-line =
+hljs-ln-code" data-line-number=3D"4">    <span class=3D"hljs-comment"># Ope=
+n the CSV file for reading and store a reference</span></td></tr><tr><td cl=
+ass=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"5"><div class=3D"h=
+ljs-ln-n" data-line-number=3D"5"></div></td><td class=3D"hljs-ln-line hljs-=
+ln-code" data-line-number=3D"5">    <span class=3D"hljs-comment"># to the o=
+pened file in a variable named csv_file.</span></td></tr><tr><td class=3D"h=
+ljs-ln-line hljs-ln-numbers" data-line-number=3D"6"><div class=3D"hljs-ln-n=
+" data-line-number=3D"6"></div></td><td class=3D"hljs-ln-line hljs-ln-code"=
+ data-line-number=3D"6">    <span class=3D"hljs-keyword">with</span> <span =
+class=3D"hljs-built_in">open</span>(<span class=3D"hljs-string">"hymns.csv"=
+</span>, <span class=3D"hljs-string">"rt"</span>) <span class=3D"hljs-keywo=
+rd">as</span> csv_file:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numb=
+ers" data-line-number=3D"7"><div class=3D"hljs-ln-n" data-line-number=3D"7"=
+></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"7">=
+        <span class=3D"hljs-comment"># Use the csv module to create a reade=
+r object</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" dat=
+a-line-number=3D"8"><div class=3D"hljs-ln-n" data-line-number=3D"8"></div><=
+/td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"8">        =
+<span class=3D"hljs-comment"># that will read from the opened CSV file.</sp=
+an></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-numbe=
+r=3D"9"><div class=3D"hljs-ln-n" data-line-number=3D"9"></div></td><td clas=
+s=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"9">        reader =3D c=
+sv.reader(csv_file)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers"=
+ data-line-number=3D"10"><div class=3D"hljs-ln-n" data-line-number=3D"10"><=
+/div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"10"> =
+       <span class=3D"hljs-comment"># Read the rows in the CSV file one row=
+ at a time.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" =
+data-line-number=3D"11"><div class=3D"hljs-ln-n" data-line-number=3D"11"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"11">  =
+      <span class=3D"hljs-comment"># The reader object returns each row as =
+a list.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data=
+-line-number=3D"12"><div class=3D"hljs-ln-n" data-line-number=3D"12"></div>=
+</td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"12">      =
+  <span class=3D"hljs-keyword">for</span> row_list <span class=3D"hljs-keyw=
+ord">in</span> reader:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbe=
+rs" data-line-number=3D"13"><div class=3D"hljs-ln-n" data-line-number=3D"13=
+"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"13=
+">            <span class=3D"hljs-built_in">print</span>(row_list)</td></tr=
+><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"14"><di=
+v class=3D"hljs-ln-n" data-line-number=3D"14"></div></td><td class=3D"hljs-=
+ln-line hljs-ln-code" data-line-number=3D"14"><span class=3D"hljs-comment">=
+# Call main to start this program.</span></td></tr><tr><td class=3D"hljs-ln=
+-line hljs-ln-numbers" data-line-number=3D"15"><div class=3D"hljs-ln-n" dat=
+a-line-number=3D"15"></div></td><td class=3D"hljs-ln-line hljs-ln-code" dat=
+a-line-number=3D"15"><span class=3D"hljs-keyword">if</span> __name__ =3D=3D=
+ <span class=3D"hljs-string">"__main__"</span>:</td></tr><tr><td class=3D"h=
+ljs-ln-line hljs-ln-numbers" data-line-number=3D"16"><div class=3D"hljs-ln-=
+n" data-line-number=3D"16"></div></td><td class=3D"hljs-ln-line hljs-ln-cod=
+e" data-line-number=3D"16">    main()</td></tr></tbody></table></code></pre=
+>
+      <pre class=3D"console">&gt; python example_2.py
+['Title', 'Author', 'Composer']
+['O Holy Night', 'John Dwight', 'Adolphe Adam']
+['Away in a Manger', 'Anonymous', 'William Kirkpatrick']
+['Joy to the World', 'Isaac Watts', 'George Handel']
+['With Wondering Awe', 'Anonymous', 'Anonymous']</pre>
+    </div>
+    <p>When a <code>csv.reader</code> reads a row from a CSV file, the
+      reader returns the row as a list of strings. The output from
+      example&nbsp;2 shows that a <code>csv.reader</code> returns a list
+      of strings. In the output, notice the five lists of strings,
+      (strings surrounded by square brackets [&nbsp;=E2=80=A6&nbsp;]) that
+      were printed by the print statement at
+      line&nbsp;17. Notice also
+      that the reader reads all the rows from a CSV file, including the
+      first row, which contains column headings.
+    </p>
+    <p>You might recall that in CSE&nbsp;110, you wrote a program that
+      reads from a CSV file without using a <code>csv.reader</code>. That
+      program split each row of text from the CSV file using the string
+      <code>split</code> method. Unfortunately, using the
+      <code>split</code> method will not work for all CSV files. Consider
+      the following <code>hymns.csv</code> file that contains rows for the
+      hymns "Far, Far Way on Judea's Plains" and "Oh, Come, All Ye
+      Faithful". Both of these hymns have commas in their titles. If we
+      use the string <code>split</code> method to separate the columns in
+      this CSV file, the hymn titles will be split. A
+      <code>csv.reader</code> will correctly split rows in all valid CSV
+      files.
+    </p>
+    <div>
+      <pre class=3D"csv">Title,Author,Composer
+"Far, Far Way on Judea's Plains",John Mcfarlane,John Mcfarlane
+"Oh, Come, All Ye Faithful",John Wade,John Wade
+"Christ the Lord is Risen Today",Charles Wesley,Anonymous
+</pre>
+    </div>
+    <h4 id=3D"process_rows">Processing Each Row in a CSV File</h4>
+    <p>After reading each row from a CSV file, the <code>for</code> loop
+      in the previous example simply prints the row list to a terminal
+      window. Of course, a <code>for</code> loop can do much more than
+      simply print each row. Consider the following CSV file named
+      <a download=3D"" href=3D"https://byui-cse.github.io/cse111-ww-course/=
+week05/samples/dentists.csv"><code>dentists.csv</code></a>
+      that stores data about dental offices. Notice that the first row of
+      the file contains column headings, the next four rows contain data
+      about four dental offices, and each row contains five columns
+      separated by commas.
+    </p>
+    <div>
+      <pre class=3D"csv">Company Name,Address,Phone Number,Employees,Patien=
+ts
+Eagle Rock Dental Care,556 Trejo Suite C,208-359-2224,7,1205
+Apple Tree Dental,33 Winn Drive Suite 2,208-359-1500,10,1520
+Rockhouse Dentistry,106 E 1st N,208-356-5600,12,1982
+Cornerstone Family Dental,44 S Center Street,208-356-4240,8,1453
+</pre>
+    </div>
+    <p>The program in example&nbsp;3 processes each row in the
+      <code>dentists.csv</code> file to determine which dental office has
+      the most patients per employee. Notice that the first row of the
+      <code>dentists.csv</code> file contains column headings. The
+      headings contain no numbers and aren=E2=80=99t needed for the calcula=
+tions,
+      so the program skips the first row by calling the built-in
+      <code>next</code> function at
+      line&nbsp;19.
+    </p>
+    <div id=3D"ex3">
+
+      <pre><code class=3D"language-python hljs" data-highlighted=3D"yes"><t=
+able class=3D"hljs-ln"><tbody><tr><td class=3D"hljs-ln-line hljs-ln-numbers=
+" data-line-number=3D"1"><div class=3D"hljs-ln-n" data-line-number=3D"1"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"1"><sp=
+an class=3D"hljs-comment"># Example 3</span></td></tr><tr><td class=3D"hljs=
+-ln-line hljs-ln-numbers" data-line-number=3D"2"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"2"></div></td><td class=3D"hljs-ln-line hljs-ln-code" da=
+ta-line-number=3D"2"><span class=3D"hljs-keyword">import</span> csv</td></t=
+r><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"3"><di=
+v class=3D"hljs-ln-n" data-line-number=3D"3"></div></td><td class=3D"hljs-l=
+n-line hljs-ln-code" data-line-number=3D"3"><span class=3D"hljs-comment"># =
+Indexes of some of the columns</span></td></tr><tr><td class=3D"hljs-ln-lin=
+e hljs-ln-numbers" data-line-number=3D"4"><div class=3D"hljs-ln-n" data-lin=
+e-number=3D"4"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line=
+-number=3D"4"><span class=3D"hljs-comment"># in the dentists.csv file.</spa=
+n></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"5"><div class=3D"hljs-ln-n" data-line-number=3D"5"></div></td><td class=
+=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"5">COMPANY_NAME_INDEX =
+=3D <span class=3D"hljs-number">0</span></td></tr><tr><td class=3D"hljs-ln-=
+line hljs-ln-numbers" data-line-number=3D"6"><div class=3D"hljs-ln-n" data-=
+line-number=3D"6"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-l=
+ine-number=3D"6">NUM_EMPS_INDEX =3D <span class=3D"hljs-number">3</span></t=
+d></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"7=
+"><div class=3D"hljs-ln-n" data-line-number=3D"7"></div></td><td class=3D"h=
+ljs-ln-line hljs-ln-code" data-line-number=3D"7">NUM_PATIENTS_INDEX =3D <sp=
+an class=3D"hljs-number">4</span></td></tr><tr><td class=3D"hljs-ln-line hl=
+js-ln-numbers" data-line-number=3D"8"><div class=3D"hljs-ln-n" data-line-nu=
+mber=3D"8"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-num=
+ber=3D"8"><span class=3D"hljs-keyword">def</span> <span class=3D"hljs-title=
+ function_">main</span>():</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-n=
+umbers" data-line-number=3D"9"><div class=3D"hljs-ln-n" data-line-number=3D=
+"9"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"=
+9">    <span class=3D"hljs-comment"># Open a file named dentists.csv and st=
+ore a reference</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbe=
+rs" data-line-number=3D"10"><div class=3D"hljs-ln-n" data-line-number=3D"10=
+"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"10=
+">    <span class=3D"hljs-comment"># to the opened file in a variable named=
+ dentists_file.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbe=
+rs" data-line-number=3D"11"><div class=3D"hljs-ln-n" data-line-number=3D"11=
+"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"11=
+">    <span class=3D"hljs-keyword">with</span> <span class=3D"hljs-built_in=
+">open</span>(<span class=3D"hljs-string">"dentists.csv"</span>, <span clas=
+s=3D"hljs-string">"rt"</span>) <span class=3D"hljs-keyword">as</span> denti=
+sts_file:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line=
+-number=3D"12"><div class=3D"hljs-ln-n" data-line-number=3D"12"></div></td>=
+<td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"12">        <sp=
+an class=3D"hljs-comment"># Use the csv module to create a reader</span></t=
+d></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"1=
+3"><div class=3D"hljs-ln-n" data-line-number=3D"13"></div></td><td class=3D=
+"hljs-ln-line hljs-ln-code" data-line-number=3D"13">        <span class=3D"=
+hljs-comment"># object that will read from the opened file.</span></td></tr=
+><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"14"><di=
+v class=3D"hljs-ln-n" data-line-number=3D"14"></div></td><td class=3D"hljs-=
+ln-line hljs-ln-code" data-line-number=3D"14">        reader =3D csv.reader=
+(dentists_file)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" dat=
+a-line-number=3D"15"><div class=3D"hljs-ln-n" data-line-number=3D"15"></div=
+></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"15">     =
+   <span class=3D"hljs-comment"># The first row of the CSV file contains co=
+lumn</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-li=
+ne-number=3D"16"><div class=3D"hljs-ln-n" data-line-number=3D"16"></div></t=
+d><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"16">        <=
+span class=3D"hljs-comment"># headings and not data about a dental office,<=
+/span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-nu=
+mber=3D"17"><div class=3D"hljs-ln-n" data-line-number=3D"17"></div></td><td=
+ class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"17">        <span =
+class=3D"hljs-comment"># so this statement skips the first row of the</span=
+></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"18"><div class=3D"hljs-ln-n" data-line-number=3D"18"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"18">        <span clas=
+s=3D"hljs-comment"># CSV file.</span></td></tr><tr><td class=3D"hljs-ln-lin=
+e hljs-ln-numbers" data-line-number=3D"19"><div class=3D"hljs-ln-n" data-li=
+ne-number=3D"19"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-li=
+ne-number=3D"19">        <span class=3D"hljs-built_in">next</span>(reader)<=
+/td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D=
+"20"><div class=3D"hljs-ln-n" data-line-number=3D"20"></div></td><td class=
+=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"20">        running_max =
+=3D <span class=3D"hljs-number">0</span></td></tr><tr><td class=3D"hljs-ln-=
+line hljs-ln-numbers" data-line-number=3D"21"><div class=3D"hljs-ln-n" data=
+-line-number=3D"21"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data=
+-line-number=3D"21">        most_office =3D <span class=3D"hljs-literal">No=
+ne</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line=
+-number=3D"22"><div class=3D"hljs-ln-n" data-line-number=3D"22"></div></td>=
+<td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"22">        <sp=
+an class=3D"hljs-comment"># Read each row in the CSV file one at a time.</s=
+pan></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-numb=
+er=3D"23"><div class=3D"hljs-ln-n" data-line-number=3D"23"></div></td><td c=
+lass=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"23">        <span cl=
+ass=3D"hljs-comment"># The reader object returns each row as a list.</span>=
+</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"24"><div class=3D"hljs-ln-n" data-line-number=3D"24"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"24">        <span clas=
+s=3D"hljs-keyword">for</span> row_list <span class=3D"hljs-keyword">in</spa=
+n> reader:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-lin=
+e-number=3D"25"><div class=3D"hljs-ln-n" data-line-number=3D"25"></div></td=
+><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"25">          =
+  <span class=3D"hljs-comment"># For the current row, retrieve the</span></=
+td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"=
+26"><div class=3D"hljs-ln-n" data-line-number=3D"26"></div></td><td class=
+=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"26">            <span cl=
+ass=3D"hljs-comment"># values in columns 0, 3, and 4.</span></td></tr><tr><=
+td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"27"><div clas=
+s=3D"hljs-ln-n" data-line-number=3D"27"></div></td><td class=3D"hljs-ln-lin=
+e hljs-ln-code" data-line-number=3D"27">            company =3D row_list[CO=
+MPANY_NAME_INDEX]</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" d=
+ata-line-number=3D"28"><div class=3D"hljs-ln-n" data-line-number=3D"28"></d=
+iv></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"28">   =
+         num_employees =3D <span class=3D"hljs-built_in">int</span>(row_lis=
+t[NUM_EMPS_INDEX])</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" =
+data-line-number=3D"29"><div class=3D"hljs-ln-n" data-line-number=3D"29"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"29">  =
+          num_patients =3D <span class=3D"hljs-built_in">int</span>(row_lis=
+t[NUM_PATIENTS_INDEX])</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbe=
+rs" data-line-number=3D"30"><div class=3D"hljs-ln-n" data-line-number=3D"30=
+"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"30=
+">            <span class=3D"hljs-comment"># Compute the number of patients=
+ per</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-li=
+ne-number=3D"31"><div class=3D"hljs-ln-n" data-line-number=3D"31"></div></t=
+d><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"31">         =
+   <span class=3D"hljs-comment"># employee for the current dental office.</=
+span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-num=
+ber=3D"32"><div class=3D"hljs-ln-n" data-line-number=3D"32"></div></td><td =
+class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"32">            pat=
+ients_per_emp =3D num_patients / num_employees</td></tr><tr><td class=3D"hl=
+js-ln-line hljs-ln-numbers" data-line-number=3D"33"><div class=3D"hljs-ln-n=
+" data-line-number=3D"33"></div></td><td class=3D"hljs-ln-line hljs-ln-code=
+" data-line-number=3D"33">            <span class=3D"hljs-comment"># If the=
+ current dental office has more</span></td></tr><tr><td class=3D"hljs-ln-li=
+ne hljs-ln-numbers" data-line-number=3D"34"><div class=3D"hljs-ln-n" data-l=
+ine-number=3D"34"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-l=
+ine-number=3D"34">            <span class=3D"hljs-comment"># patients per e=
+mployee than the running</span></td></tr><tr><td class=3D"hljs-ln-line hljs=
+-ln-numbers" data-line-number=3D"35"><div class=3D"hljs-ln-n" data-line-num=
+ber=3D"35"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-num=
+ber=3D"35">            <span class=3D"hljs-comment"># maximum, assign runni=
+ng_max and most_office</span></td></tr><tr><td class=3D"hljs-ln-line hljs-l=
+n-numbers" data-line-number=3D"36"><div class=3D"hljs-ln-n" data-line-numbe=
+r=3D"36"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-numbe=
+r=3D"36">            <span class=3D"hljs-comment"># to be the current denta=
+l office.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" da=
+ta-line-number=3D"37"><div class=3D"hljs-ln-n" data-line-number=3D"37"></di=
+v></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"37">    =
+        <span class=3D"hljs-keyword">if</span> patients_per_emp &gt; runnin=
+g_max:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-nu=
+mber=3D"38"><div class=3D"hljs-ln-n" data-line-number=3D"38"></div></td><td=
+ class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"38">              =
+  running_max =3D patients_per_emp</td></tr><tr><td class=3D"hljs-ln-line h=
+ljs-ln-numbers" data-line-number=3D"39"><div class=3D"hljs-ln-n" data-line-=
+number=3D"39"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-=
+number=3D"39">                most_office =3D company</td></tr><tr><td clas=
+s=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"40"><div class=3D"hl=
+js-ln-n" data-line-number=3D"40"></div></td><td class=3D"hljs-ln-line hljs-=
+ln-code" data-line-number=3D"40">    <span class=3D"hljs-comment"># Print t=
+he results for the user to see.</span></td></tr><tr><td class=3D"hljs-ln-li=
+ne hljs-ln-numbers" data-line-number=3D"41"><div class=3D"hljs-ln-n" data-l=
+ine-number=3D"41"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-l=
+ine-number=3D"41">    <span class=3D"hljs-built_in">print</span>(<span clas=
+s=3D"hljs-string">f"<span class=3D"hljs-subst">{most_office}</span> has <sp=
+an class=3D"hljs-subst">{running_max:<span class=3D"hljs-number">.1</span>f=
+}</span>"</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" da=
+ta-line-number=3D"42"><div class=3D"hljs-ln-n" data-line-number=3D"42"></di=
+v></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"42">    =
+        <span class=3D"hljs-string">" patients per employee"</span>)</td></=
+tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"43"><=
+div class=3D"hljs-ln-n" data-line-number=3D"43"></div></td><td class=3D"hlj=
+s-ln-line hljs-ln-code" data-line-number=3D"43"><span class=3D"hljs-comment=
+"># Call main to start this program.</span></td></tr><tr><td class=3D"hljs-=
+ln-line hljs-ln-numbers" data-line-number=3D"44"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"44"></div></td><td class=3D"hljs-ln-line hljs-ln-code" d=
+ata-line-number=3D"44"><span class=3D"hljs-keyword">if</span> __name__ =3D=
+=3D <span class=3D"hljs-string">"__main__"</span>:</td></tr><tr><td class=
+=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"45"><div class=3D"hlj=
+s-ln-n" data-line-number=3D"45"></div></td><td class=3D"hljs-ln-line hljs-l=
+n-code" data-line-number=3D"45">    main()</td></tr></tbody></table></code>=
+</pre>
+      <pre class=3D"console">&gt; python example_3.py
+Cornerstone Family Dental has 181.6 patients per employee</pre>
+    </div>
+    <h4 id=3D"csv_to_list">Reading a CSV File into a Compound List</h4>
+    <p>The program in example&nbsp;3 reads and processes each row in a
+      CSV file. That program needs to access the data in each row once
+      only. If a program needs to access the contents of a CSV file multipl=
+e
+      times, the program can read the contents of the file into a compound
+      list and then access the data from the list. The program in
+      example&nbsp;4 contains a function named
+      <code>read_compound_list</code> that reads the contents of a CSV
+      file into a compound list.
+    </p>
+    <div id=3D"ex4">
+
+      <pre><code class=3D"language-python hljs" data-highlighted=3D"yes"><t=
+able class=3D"hljs-ln"><tbody><tr><td class=3D"hljs-ln-line hljs-ln-numbers=
+" data-line-number=3D"1"><div class=3D"hljs-ln-n" data-line-number=3D"1"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"1"><sp=
+an class=3D"hljs-comment"># Example 4</span></td></tr><tr><td class=3D"hljs=
+-ln-line hljs-ln-numbers" data-line-number=3D"2"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"2"></div></td><td class=3D"hljs-ln-line hljs-ln-code" da=
+ta-line-number=3D"2"><span class=3D"hljs-keyword">import</span> csv</td></t=
+r><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"3"><di=
+v class=3D"hljs-ln-n" data-line-number=3D"3"></div></td><td class=3D"hljs-l=
+n-line hljs-ln-code" data-line-number=3D"3"><span class=3D"hljs-keyword">de=
+f</span> <span class=3D"hljs-title function_">main</span>():</td></tr><tr><=
+td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"4"><div class=
+=3D"hljs-ln-n" data-line-number=3D"4"></div></td><td class=3D"hljs-ln-line =
+hljs-ln-code" data-line-number=3D"4">    <span class=3D"hljs-comment"># Rea=
+d the contents of the dentists.csv file</span></td></tr><tr><td class=3D"hl=
+js-ln-line hljs-ln-numbers" data-line-number=3D"5"><div class=3D"hljs-ln-n"=
+ data-line-number=3D"5"></div></td><td class=3D"hljs-ln-line hljs-ln-code" =
+data-line-number=3D"5">    <span class=3D"hljs-comment"># into a compound l=
+ist.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-li=
+ne-number=3D"6"><div class=3D"hljs-ln-n" data-line-number=3D"6"></div></td>=
+<td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"6">    dentists=
+_list =3D read_compound_list(<span class=3D"hljs-string">"dentists.csv"</sp=
+an>)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-numb=
+er=3D"7"><div class=3D"hljs-ln-n" data-line-number=3D"7"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"7">    <span class=3D"=
+hljs-comment"># Print the entire list.</span></td></tr><tr><td class=3D"hlj=
+s-ln-line hljs-ln-numbers" data-line-number=3D"8"><div class=3D"hljs-ln-n" =
+data-line-number=3D"8"></div></td><td class=3D"hljs-ln-line hljs-ln-code" d=
+ata-line-number=3D"8">    <span class=3D"hljs-built_in">print</span>(dentis=
+ts_list)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-=
+number=3D"9"><div class=3D"hljs-ln-n" data-line-number=3D"9"></div></td><td=
+ class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"9"><span class=3D"=
+hljs-keyword">def</span> <span class=3D"hljs-title function_">read_compound=
+_list</span>(<span class=3D"hljs-params">filename</span>):</td></tr><tr><td=
+ class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"10"><div class=
+=3D"hljs-ln-n" data-line-number=3D"10"></div></td><td class=3D"hljs-ln-line=
+ hljs-ln-code" data-line-number=3D"10">    <span class=3D"hljs-string"><spa=
+n class=3D"hljs-string">"""Read the contents of a CSV file into a compound<=
+/span></span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-=
+line-number=3D"11"><div class=3D"hljs-ln-n" data-line-number=3D"11"></div><=
+/td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"11"><span c=
+lass=3D"hljs-string">    list and return the list. Each element in the</spa=
+n></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"12"><div class=3D"hljs-ln-n" data-line-number=3D"12"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"12"><span class=3D"hlj=
+s-string">    compound list will be a small list that contains</span></td><=
+/tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"13">=
+<div class=3D"hljs-ln-n" data-line-number=3D"13"></div></td><td class=3D"hl=
+js-ln-line hljs-ln-code" data-line-number=3D"13"><span class=3D"hljs-string=
+">    the values from one row of the CSV file.</span></td></tr><tr><td clas=
+s=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"14"><div class=3D"hl=
+js-ln-n" data-line-number=3D"14"></div></td><td class=3D"hljs-ln-line hljs-=
+ln-code" data-line-number=3D"14"><span class=3D"hljs-string">    Parameter =
+filename: the name of the CSV file to read</span></td></tr><tr><td class=3D=
+"hljs-ln-line hljs-ln-numbers" data-line-number=3D"15"><div class=3D"hljs-l=
+n-n" data-line-number=3D"15"></div></td><td class=3D"hljs-ln-line hljs-ln-c=
+ode" data-line-number=3D"15"><span class=3D"hljs-string">    Return: a list=
+ of lists that contain strings</span></td></tr><tr><td class=3D"hljs-ln-lin=
+e hljs-ln-numbers" data-line-number=3D"16"><div class=3D"hljs-ln-n" data-li=
+ne-number=3D"16"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-li=
+ne-number=3D"16"><span class=3D"hljs-string">    """</span></td></tr><tr><t=
+d class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"17"><div class=
+=3D"hljs-ln-n" data-line-number=3D"17"></div></td><td class=3D"hljs-ln-line=
+ hljs-ln-code" data-line-number=3D"17">    <span class=3D"hljs-comment"># C=
+reate an empty list that will</span></td></tr><tr><td class=3D"hljs-ln-line=
+ hljs-ln-numbers" data-line-number=3D"18"><div class=3D"hljs-ln-n" data-lin=
+e-number=3D"18"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-lin=
+e-number=3D"18">    <span class=3D"hljs-comment"># store the data from the =
+CSV file.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" da=
+ta-line-number=3D"19"><div class=3D"hljs-ln-n" data-line-number=3D"19"></di=
+v></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"19">    =
+compound_list =3D []</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers=
+" data-line-number=3D"20"><div class=3D"hljs-ln-n" data-line-number=3D"20">=
+</div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"20">=
+    <span class=3D"hljs-comment"># Open the CSV file for reading and store =
+a reference</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" =
+data-line-number=3D"21"><div class=3D"hljs-ln-n" data-line-number=3D"21"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"21">  =
+  <span class=3D"hljs-comment"># to the opened file in a variable named csv=
+_file.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-=
+line-number=3D"22"><div class=3D"hljs-ln-n" data-line-number=3D"22"></div><=
+/td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"22">    <sp=
+an class=3D"hljs-keyword">with</span> <span class=3D"hljs-built_in">open</s=
+pan>(filename, <span class=3D"hljs-string">"rt"</span>) <span class=3D"hljs=
+-keyword">as</span> csv_file:</td></tr><tr><td class=3D"hljs-ln-line hljs-l=
+n-numbers" data-line-number=3D"23"><div class=3D"hljs-ln-n" data-line-numbe=
+r=3D"23"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-numbe=
+r=3D"23">        <span class=3D"hljs-comment"># Use the csv module to creat=
+e a reader object</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-num=
+bers" data-line-number=3D"24"><div class=3D"hljs-ln-n" data-line-number=3D"=
+24"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"=
+24">        <span class=3D"hljs-comment"># that will read from the opened C=
+SV file.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" dat=
+a-line-number=3D"25"><div class=3D"hljs-ln-n" data-line-number=3D"25"></div=
+></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"25">     =
+   reader =3D csv.reader(csv_file)</td></tr><tr><td class=3D"hljs-ln-line h=
+ljs-ln-numbers" data-line-number=3D"26"><div class=3D"hljs-ln-n" data-line-=
+number=3D"26"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-=
+number=3D"26">        <span class=3D"hljs-comment"># Read the rows in the C=
+SV file one row at a time.</span></td></tr><tr><td class=3D"hljs-ln-line hl=
+js-ln-numbers" data-line-number=3D"27"><div class=3D"hljs-ln-n" data-line-n=
+umber=3D"27"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-n=
+umber=3D"27">        <span class=3D"hljs-comment"># The reader object retur=
+ns each row as a list.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-l=
+n-numbers" data-line-number=3D"28"><div class=3D"hljs-ln-n" data-line-numbe=
+r=3D"28"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-numbe=
+r=3D"28">        <span class=3D"hljs-keyword">for</span> row_list <span cla=
+ss=3D"hljs-keyword">in</span> reader:</td></tr><tr><td class=3D"hljs-ln-lin=
+e hljs-ln-numbers" data-line-number=3D"29"><div class=3D"hljs-ln-n" data-li=
+ne-number=3D"29"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-li=
+ne-number=3D"29">            <span class=3D"hljs-comment"># If the current =
+row is not blank,</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-num=
+bers" data-line-number=3D"30"><div class=3D"hljs-ln-n" data-line-number=3D"=
+30"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"=
+30">            <span class=3D"hljs-comment"># append it to the compound_li=
+st.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-lin=
+e-number=3D"31"><div class=3D"hljs-ln-n" data-line-number=3D"31"></div></td=
+><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"31">          =
+  <span class=3D"hljs-keyword">if</span> <span class=3D"hljs-built_in">len<=
+/span>(row_list) !=3D <span class=3D"hljs-number">0</span>:</td></tr><tr><t=
+d class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"32"><div class=
+=3D"hljs-ln-n" data-line-number=3D"32"></div></td><td class=3D"hljs-ln-line=
+ hljs-ln-code" data-line-number=3D"32">                <span class=3D"hljs-=
+comment"># Append one row from the CSV</span></td></tr><tr><td class=3D"hlj=
+s-ln-line hljs-ln-numbers" data-line-number=3D"33"><div class=3D"hljs-ln-n"=
+ data-line-number=3D"33"></div></td><td class=3D"hljs-ln-line hljs-ln-code"=
+ data-line-number=3D"33">                <span class=3D"hljs-comment"># fil=
+e to the compound list.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-=
+ln-numbers" data-line-number=3D"34"><div class=3D"hljs-ln-n" data-line-numb=
+er=3D"34"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-numb=
+er=3D"34">                compound_list.append(row_list)</td></tr><tr><td c=
+lass=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"35"><div class=3D=
+"hljs-ln-n" data-line-number=3D"35"></div></td><td class=3D"hljs-ln-line hl=
+js-ln-code" data-line-number=3D"35">    <span class=3D"hljs-comment"># Retu=
+rn the compound list.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln=
+-numbers" data-line-number=3D"36"><div class=3D"hljs-ln-n" data-line-number=
+=3D"36"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=
+=3D"36">    <span class=3D"hljs-keyword">return</span> compound_list</td></=
+tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"37"><=
+div class=3D"hljs-ln-n" data-line-number=3D"37"></div></td><td class=3D"hlj=
+s-ln-line hljs-ln-code" data-line-number=3D"37"><span class=3D"hljs-comment=
+"># Call main to start this program.</span></td></tr><tr><td class=3D"hljs-=
+ln-line hljs-ln-numbers" data-line-number=3D"38"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"38"></div></td><td class=3D"hljs-ln-line hljs-ln-code" d=
+ata-line-number=3D"38"><span class=3D"hljs-keyword">if</span> __name__ =3D=
+=3D <span class=3D"hljs-string">"__main__"</span>:</td></tr><tr><td class=
+=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"39"><div class=3D"hlj=
+s-ln-n" data-line-number=3D"39"></div></td><td class=3D"hljs-ln-line hljs-l=
+n-code" data-line-number=3D"39">    main()</td></tr></tbody></table></code>=
+</pre>
+      <pre class=3D"console">&gt; python example_4.py
+[['Company Name', 'Address', 'Phone Number', 'Employees',
+'Patients'], ['Eagle Rock Dental Care', '556 Trejo Suite C',
+'208-359-2224', '7', '1205'], ['Apple Tree Dental',
+'33 Winn Drive Suite 2', '208-359-1500', '10', '1520'],
+['Rockhouse Dentistry', '106 E 1st N', '208-356-5600', '12',
+'1982'], ['Cornerstone Family Dental', '44 S Center Street',
+'208-356-4240', '8', '1453']]</pre>
+    </div>
+    <h4 id=3D"csv_to_dict">Reading a CSV File into a Compound Dictionary</h=
+4>
+    <p>If the values in one of the columns of a CSV file are unique,
+      then a progam can read the contents of a CSV file into a compound
+      dictionary and then use the dictionary to quickly find data. Recall
+      that each item in a dictionary is a key value pair. The values from
+      the unique column in a CSV file will be the keys in the dictionary.
+      The program in example&nbsp;5 shows how to read the data from a CSV
+      file into a compound dictionary. Notice in example&nbsp;5, because
+      of lines&nbsp;6,&nbsp;10,
+      44,&nbsp;and&nbsp;47, that the program uses the dental office
+      phone numbers as the keys in the dictionary.</p>
+    <div id=3D"ex5">
+
+      <pre><code class=3D"language-python hljs" data-highlighted=3D"yes"><t=
+able class=3D"hljs-ln"><tbody><tr><td class=3D"hljs-ln-line hljs-ln-numbers=
+" data-line-number=3D"1"><div class=3D"hljs-ln-n" data-line-number=3D"1"></=
+div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"1"><sp=
+an class=3D"hljs-comment"># Example 5</span></td></tr><tr><td class=3D"hljs=
+-ln-line hljs-ln-numbers" data-line-number=3D"2"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"2"></div></td><td class=3D"hljs-ln-line hljs-ln-code" da=
+ta-line-number=3D"2"><span class=3D"hljs-keyword">import</span> csv</td></t=
+r><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"3"><di=
+v class=3D"hljs-ln-n" data-line-number=3D"3"></div></td><td class=3D"hljs-l=
+n-line hljs-ln-code" data-line-number=3D"3"><span class=3D"hljs-keyword">de=
+f</span> <span class=3D"hljs-title function_">main</span>():</td></tr><tr><=
+td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"4"><div class=
+=3D"hljs-ln-n" data-line-number=3D"4"></div></td><td class=3D"hljs-ln-line =
+hljs-ln-code" data-line-number=3D"4">    <span class=3D"hljs-comment"># Ind=
+ex of the phone number column</span></td></tr><tr><td class=3D"hljs-ln-line=
+ hljs-ln-numbers" data-line-number=3D"5"><div class=3D"hljs-ln-n" data-line=
+-number=3D"5"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-=
+number=3D"5">    <span class=3D"hljs-comment"># in the dentists.csv file.</=
+span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-num=
+ber=3D"6"><div class=3D"hljs-ln-n" data-line-number=3D"6"></div></td><td cl=
+ass=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"6">    PHONE_INDEX =
+=3D <span class=3D"hljs-number">2</span></td></tr><tr><td class=3D"hljs-ln-=
+line hljs-ln-numbers" data-line-number=3D"7"><div class=3D"hljs-ln-n" data-=
+line-number=3D"7"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-l=
+ine-number=3D"7">    <span class=3D"hljs-comment"># Read the contents of th=
+e dentists.csv into a</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln=
+-numbers" data-line-number=3D"8"><div class=3D"hljs-ln-n" data-line-number=
+=3D"8"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=
+=3D"8">    <span class=3D"hljs-comment"># compound dictionary named dentist=
+s_dict. Use</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" =
+data-line-number=3D"9"><div class=3D"hljs-ln-n" data-line-number=3D"9"></di=
+v></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"9">    <=
+span class=3D"hljs-comment"># the phone numbers as the keys in the dictiona=
+ry.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-lin=
+e-number=3D"10"><div class=3D"hljs-ln-n" data-line-number=3D"10"></div></td=
+><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"10">    dentis=
+ts_dict =3D read_dictionary(<span class=3D"hljs-string">"dentists.csv"</spa=
+n>, PHONE_INDEX)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" da=
+ta-line-number=3D"11"><div class=3D"hljs-ln-n" data-line-number=3D"11"></di=
+v></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"11">    =
+<span class=3D"hljs-comment"># Print the dentists compound dictionary.</spa=
+n></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"12"><div class=3D"hljs-ln-n" data-line-number=3D"12"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"12">    <span class=3D=
+"hljs-built_in">print</span>(dentists_dict)</td></tr><tr><td class=3D"hljs-=
+ln-line hljs-ln-numbers" data-line-number=3D"13"><div class=3D"hljs-ln-n" d=
+ata-line-number=3D"13"></div></td><td class=3D"hljs-ln-line hljs-ln-code" d=
+ata-line-number=3D"13"><span class=3D"hljs-keyword">def</span> <span class=
+=3D"hljs-title function_">read_dictionary</span>(<span class=3D"hljs-params=
+">filename, key_column_index</span>):</td></tr><tr><td class=3D"hljs-ln-lin=
+e hljs-ln-numbers" data-line-number=3D"14"><div class=3D"hljs-ln-n" data-li=
+ne-number=3D"14"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-li=
+ne-number=3D"14">    <span class=3D"hljs-string"><span class=3D"hljs-string=
+">"""Read the contents of a CSV file into a compound</span></span></td></tr=
+><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"15"><di=
+v class=3D"hljs-ln-n" data-line-number=3D"15"></div></td><td class=3D"hljs-=
+ln-line hljs-ln-code" data-line-number=3D"15"><span class=3D"hljs-string"> =
+   dictionary and return the dictionary.</span></td></tr><tr><td class=3D"h=
+ljs-ln-line hljs-ln-numbers" data-line-number=3D"16"><div class=3D"hljs-ln-=
+n" data-line-number=3D"16"></div></td><td class=3D"hljs-ln-line hljs-ln-cod=
+e" data-line-number=3D"16"><span class=3D"hljs-string">    Parameters</span=
+></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"17"><div class=3D"hljs-ln-n" data-line-number=3D"17"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"17"><span class=3D"hlj=
+s-string">        filename: the name of the CSV file to read.</span></td></=
+tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"18"><=
+div class=3D"hljs-ln-n" data-line-number=3D"18"></div></td><td class=3D"hlj=
+s-ln-line hljs-ln-code" data-line-number=3D"18"><span class=3D"hljs-string"=
+>        key_column_index: the index of the column</span></td></tr><tr><td =
+class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"19"><div class=
+=3D"hljs-ln-n" data-line-number=3D"19"></div></td><td class=3D"hljs-ln-line=
+ hljs-ln-code" data-line-number=3D"19"><span class=3D"hljs-string">        =
+    to use as the keys in the dictionary.</span></td></tr><tr><td class=3D"=
+hljs-ln-line hljs-ln-numbers" data-line-number=3D"20"><div class=3D"hljs-ln=
+-n" data-line-number=3D"20"></div></td><td class=3D"hljs-ln-line hljs-ln-co=
+de" data-line-number=3D"20"><span class=3D"hljs-string">    Return: a compo=
+und dictionary that contains</span></td></tr><tr><td class=3D"hljs-ln-line =
+hljs-ln-numbers" data-line-number=3D"21"><div class=3D"hljs-ln-n" data-line=
+-number=3D"21"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line=
+-number=3D"21"><span class=3D"hljs-string">        the contents of the CSV =
+file.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-l=
+ine-number=3D"22"><div class=3D"hljs-ln-n" data-line-number=3D"22"></div></=
+td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"22"><span cl=
+ass=3D"hljs-string">    """</span></td></tr><tr><td class=3D"hljs-ln-line h=
+ljs-ln-numbers" data-line-number=3D"23"><div class=3D"hljs-ln-n" data-line-=
+number=3D"23"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-=
+number=3D"23">    <span class=3D"hljs-comment"># Create an empty dictionary=
+ that will</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" d=
+ata-line-number=3D"24"><div class=3D"hljs-ln-n" data-line-number=3D"24"></d=
+iv></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"24">   =
+ <span class=3D"hljs-comment"># store the data from the CSV file.</span></t=
+d></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"2=
+5"><div class=3D"hljs-ln-n" data-line-number=3D"25"></div></td><td class=3D=
+"hljs-ln-line hljs-ln-code" data-line-number=3D"25">    dictionary =3D {}</=
+td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"=
+26"><div class=3D"hljs-ln-n" data-line-number=3D"26"></div></td><td class=
+=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"26">    <span class=3D"h=
+ljs-comment"># Open the CSV file for reading and store a reference</span></=
+td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"=
+27"><div class=3D"hljs-ln-n" data-line-number=3D"27"></div></td><td class=
+=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"27">    <span class=3D"h=
+ljs-comment"># to the opened file in a variable named csv_file.</span></td>=
+</tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"28"=
+><div class=3D"hljs-ln-n" data-line-number=3D"28"></div></td><td class=3D"h=
+ljs-ln-line hljs-ln-code" data-line-number=3D"28">    <span class=3D"hljs-k=
+eyword">with</span> <span class=3D"hljs-built_in">open</span>(filename, <sp=
+an class=3D"hljs-string">"rt"</span>) <span class=3D"hljs-keyword">as</span=
+> csv_file:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-li=
+ne-number=3D"29"><div class=3D"hljs-ln-n" data-line-number=3D"29"></div></t=
+d><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"29">        <=
+span class=3D"hljs-comment"># Use the csv module to create a reader object<=
+/span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-nu=
+mber=3D"30"><div class=3D"hljs-ln-n" data-line-number=3D"30"></div></td><td=
+ class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"30">        <span =
+class=3D"hljs-comment"># that will read from the opened CSV file.</span></t=
+d></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"3=
+1"><div class=3D"hljs-ln-n" data-line-number=3D"31"></div></td><td class=3D=
+"hljs-ln-line hljs-ln-code" data-line-number=3D"31">        reader =3D csv.=
+reader(csv_file)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" da=
+ta-line-number=3D"32"><div class=3D"hljs-ln-n" data-line-number=3D"32"></di=
+v></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"32">    =
+    <span class=3D"hljs-comment"># The first row of the CSV file contains c=
+olumn</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-l=
+ine-number=3D"33"><div class=3D"hljs-ln-n" data-line-number=3D"33"></div></=
+td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"33">        =
+<span class=3D"hljs-comment"># headings and not data, so this statement ski=
+ps</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line=
+-number=3D"34"><div class=3D"hljs-ln-n" data-line-number=3D"34"></div></td>=
+<td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"34">        <sp=
+an class=3D"hljs-comment"># the first row of the CSV file.</span></td></tr>=
+<tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"35"><div=
+ class=3D"hljs-ln-n" data-line-number=3D"35"></div></td><td class=3D"hljs-l=
+n-line hljs-ln-code" data-line-number=3D"35">        <span class=3D"hljs-bu=
+ilt_in">next</span>(reader)</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-=
+numbers" data-line-number=3D"36"><div class=3D"hljs-ln-n" data-line-number=
+=3D"36"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=
+=3D"36">        <span class=3D"hljs-comment"># Read the rows in the CSV fil=
+e one row at a time.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-=
+numbers" data-line-number=3D"37"><div class=3D"hljs-ln-n" data-line-number=
+=3D"37"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=
+=3D"37">        <span class=3D"hljs-comment"># The reader object returns ea=
+ch row as a list.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-num=
+bers" data-line-number=3D"38"><div class=3D"hljs-ln-n" data-line-number=3D"=
+38"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"=
+38">        <span class=3D"hljs-keyword">for</span> row_list <span class=3D=
+"hljs-keyword">in</span> reader:</td></tr><tr><td class=3D"hljs-ln-line hlj=
+s-ln-numbers" data-line-number=3D"39"><div class=3D"hljs-ln-n" data-line-nu=
+mber=3D"39"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-nu=
+mber=3D"39">            <span class=3D"hljs-comment"># If the current row i=
+s not blank, add the</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-=
+numbers" data-line-number=3D"40"><div class=3D"hljs-ln-n" data-line-number=
+=3D"40"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=
+=3D"40">            <span class=3D"hljs-comment"># data from the current to=
+ the dictionary.</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numb=
+ers" data-line-number=3D"41"><div class=3D"hljs-ln-n" data-line-number=3D"4=
+1"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"4=
+1">            <span class=3D"hljs-keyword">if</span> <span class=3D"hljs-b=
+uilt_in">len</span>(row_list) !=3D <span class=3D"hljs-number">0</span>:</t=
+d></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"4=
+2"><div class=3D"hljs-ln-n" data-line-number=3D"42"></div></td><td class=3D=
+"hljs-ln-line hljs-ln-code" data-line-number=3D"42">                <span c=
+lass=3D"hljs-comment"># From the current row, retrieve the data</span></td>=
+</tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"43"=
+><div class=3D"hljs-ln-n" data-line-number=3D"43"></div></td><td class=3D"h=
+ljs-ln-line hljs-ln-code" data-line-number=3D"43">                <span cla=
+ss=3D"hljs-comment"># from the column that contains the key.</span></td></t=
+r><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"44"><d=
+iv class=3D"hljs-ln-n" data-line-number=3D"44"></div></td><td class=3D"hljs=
+-ln-line hljs-ln-code" data-line-number=3D"44">                key =3D row_=
+list[key_column_index]</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbe=
+rs" data-line-number=3D"45"><div class=3D"hljs-ln-n" data-line-number=3D"45=
+"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"45=
+">                <span class=3D"hljs-comment"># Store the data from the cu=
+rrent</span></td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-l=
+ine-number=3D"46"><div class=3D"hljs-ln-n" data-line-number=3D"46"></div></=
+td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"46">        =
+        <span class=3D"hljs-comment"># row into the dictionary.</span></td>=
+</tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"47"=
+><div class=3D"hljs-ln-n" data-line-number=3D"47"></div></td><td class=3D"h=
+ljs-ln-line hljs-ln-code" data-line-number=3D"47">                dictionar=
+y[key] =3D row_list</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers"=
+ data-line-number=3D"48"><div class=3D"hljs-ln-n" data-line-number=3D"48"><=
+/div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"48"> =
+   <span class=3D"hljs-comment"># Return the dictionary.</span></td></tr><t=
+r><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=3D"49"><div c=
+lass=3D"hljs-ln-n" data-line-number=3D"49"></div></td><td class=3D"hljs-ln-=
+line hljs-ln-code" data-line-number=3D"49">    <span class=3D"hljs-keyword"=
+>return</span> dictionary</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-nu=
+mbers" data-line-number=3D"50"><div class=3D"hljs-ln-n" data-line-number=3D=
+"50"></div></td><td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D=
+"50"><span class=3D"hljs-comment"># Call main to start this program.</span>=
+</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-number=
+=3D"51"><div class=3D"hljs-ln-n" data-line-number=3D"51"></div></td><td cla=
+ss=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"51"><span class=3D"hlj=
+s-keyword">if</span> __name__ =3D=3D <span class=3D"hljs-string">"__main__"=
+</span>:</td></tr><tr><td class=3D"hljs-ln-line hljs-ln-numbers" data-line-=
+number=3D"52"><div class=3D"hljs-ln-n" data-line-number=3D"52"></div></td><=
+td class=3D"hljs-ln-line hljs-ln-code" data-line-number=3D"52">    main()</=
+td></tr></tbody></table></code></pre>
+      <pre class=3D"console">&gt; python example_5.py
+{'208-359-2224': ['Eagle Rock Dental Care', '556 Trejo Suite C', '208-359-2=
+224', 7, 1205],
+'208-359-1500': ['Apple Tree Dental', '33 Winn Drive Suite 2', '208-359-150=
+0', 10, 1520],
+'208-356-5600': ['Rockhouse Dentistry', '106 E 1st N', '208-356-5600', 12, =
+1982],
+'208-356-4240': ['Cornerstone Family Dental', '44 S Center Street', '208-35=
+6-4240', 8, 1453]}</pre>
+    </div>
+    <h3 id=3D"more_info">Additional Information</h3>
+    <p>The following tutorials contain additional information that you
+      may find helpful. You are not required to read these tutorials.</p>
+    <ul class=3D"tutorials">
+      <li>
+        <div><a href=3D"https://byui-cse.github.io/cse111-ww-course/week05/=
+write-text.html">Writing Text Files in Python</a></div>
+      </li>
+    </ul>
+    <h3 id=3D"summary">Summary</h3>
+    <p>A text file stores words and numbers as human readable text.
+      During this lesson, you are learning how to write Python code to
+      read from text files. To read from a text file, your program must
+      first open the file by calling the built-in <code>open</code>
+      function. You should write the code to open a file in a Python
+      <code>with</code> block because the computer will automatically
+      close the file when the <code>with</code> block ends, and you won=E2=
+=80=99t
+      need to remember to write code to close the file.
+    </p>
+    <p>A CSV file is a text file that contains rows and columns of data.
+      CSV is an acronym that stands for comma separated values. Within
+      each row in a CSV file, the data values are separated by commas.
+      Python includes a standard module named <code>csv</code> that helps
+      us easily write code to read from CSV files. Sometimes a program
+      simply needs to use the values in a CSV file in calculations, so we
+      write Python code to perform calculations for each row. Other times,
+      we write Python code to read the contents of a CSV file into a
+      compound list or compound dictionary.</p>
+    <h2>Checkpoint</h2>
+    <h3 id=3D"purpose">Purpose</h3>
+    <p>Check your understanding of text files and lists by writing a
+      program that reads the contents of a text file into a list and then
+      changes some of the values in the list.</p>
+    <h3 id=3D"helpful_docs">Helpful Documentation</h3>
+    <ul class=3D"mixed long">
+      <li class=3D"tutorial">
+        <div>The Reading Files article explains how
+          to setup VS Code so that your Python program can
+          <a href=3D"https://byui-cse.github.io/cse111-ww-course/week05/fil=
+e-setup.html">read from a text file</a>.
+        </div>
+      </li>
+      <li class=3D"tutorial">
+        <div>The
+          <a href=3D"https://byui-cse.github.io/cse111-ww-course/week05/pre=
+pare-1.html#text_files">Text Files section</a> of the
+          preparation content for this lesson contains example code that
+          shows how to read a text file into a list.
+        </div>
+      </li>
+      <li class=3D"tutorial">
+        <div>The
+          <a href=3D"https://byui-cse.github.io/cse111-ww-course/week04/pre=
+pare-1.html#lists">Lists section</a> of
+          the preparation content for week 04 contains example code
+          that shows how to replace and remove elements in a
+          list.
+        </div>
+      </li>
+      <li class=3D"reference">
+        <div>The <code>list.count</code> method
+          counts and returns the number of times a value appears in a
+          list.</div>
+      </li>
+    </ul>
+    <h3 id=3D"assign">Assignment</h3>
+    <p>You must do the following to setup VS Code so that your program
+      can read from a text file:</p>
+    <ol>
+      <li>
+        <div>Download the
+          <a download=3D"" href=3D"https://byui-cse.github.io/cse111-ww-cou=
+rse/week05/samples/provinces.txt"><code>provinces.txt</code></a>
+          file and save it in the same folder where you will save your
+          Python program.
+        </div>
+      </li>
+      <li>
+        <div>Using VS Code, open the folder where you saved the
+          <code>provinces.txt</code> file by doing the following:
+          <ul>
+            <li>
+              <div>On a computer running the <dfn>Mac OSX</dfn>
+                operating system:
+                <ol>
+                  <li>
+                    <div>Select the <strong>File</strong> menu, then <b> Op=
+en Flder...</b></div>
+                  </li>
+                  <li>
+                    <div>Find and select the folder where you saved the
+                      <code>provinces.txt</code> file.
+                    </div>
+                  </li>
+                  <li>
+                    <div>Select the <strong>Open</strong> button.</div>
+                  </li>
+                </ol>
+              </div>
+            </li>
+            <li>
+              <div>On a computer running the <dfn>Windows</dfn>
+                operating system:
+                <ol>
+                  <li>
+                    <div>Select the <strong>File</strong> menu, then <stron=
+g>Open Folder...</strong></div>
+                  </li>
+                  <li>
+                    <div>Find and select the folder where you saved the
+                      <code>provinces.txt</code> file.
+                    </div>
+                  </li>
+                  <li>
+                    <div>Select the <strong>Select Folder</strong> button.<=
+/div>
+                  </li>
+                </ol>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+    <p>Now that you have correctly setup VS Code so that your program
+      can read the <code>provinces.txt</code> file, open that file in VS
+      Code and examine it. Notice that the file contains a list of names
+      of Canadian Provinces. Notice also that the file contains "AB"
+      several times which is an abbreviation for Alberta.</p>
+    <p>Write a Python program named <code>provinces.py</code> that reads
+      the contents of <code>provinces.txt</code> into a list and then
+      modifies the list. Your program must do the following:</p>
+    <ol>
+      <li>
+        <div>Open the <code>provinces.txt</code> file for
+          reading.</div>
+      </li>
+      <li>
+        <div>Read the contents of the file into a list where each
+          line of text in the file is stored in a separate element in the
+          list.</div>
+      </li>
+      <li>
+        <div>Print the entire list.</div>
+      </li>
+      <li>
+        <div>Remove the first element from the list.</div>
+      </li>
+      <li>
+        <div>Remove the last element from the list.</div>
+      </li>
+      <li>
+        <div>Replace all occurrences of "AB" in the list with
+          "Alberta".</div>
+      </li>
+      <li>
+        <div>Count the number of elements that are "Alberta" and
+          print that number.</div>
+      </li>
+    </ol>
+    <h3 id=3D"testing">Testing Procedure</h3>
+    <p>Verify that your program works correctly by following each
+      step in this testing procedure:</p>
+    <ol class=3D"test">
+      <li>
+        <div>Run your program and ensure that your program=E2=80=99s output
+          matches the output below. (Your program may wrap the
+          province names differently.)
+          <pre class=3D"console">&gt; python provinces.py
+['Alberta', 'Ontario', 'Prince Edward Island', 'Ontario',
+'Quebec', 'Saskatchewan', 'AB', 'Nova Scotia', 'Alberta',
+'Northwest Territories', 'Saskatchewan', 'Nunavut',
+'Nova Scotia', 'Prince Edward Island', 'Alberta',
+'Nova Scotia', 'Nova Scotia', 'Prince Edward Island',
+'British Columbia', 'Ontario', 'Ontario',
+'Newfoundland and Labrador', 'Ontario', 'Ontario',
+'Saskatchewan', 'Nova Scotia', 'Prince Edward Island',
+'Saskatchewan', 'Ontario', 'Newfoundland and Labrador',
+'Ontario', 'British Columbia', 'Manitoba', 'Ontario',
+'Alberta', 'Saskatchewan', 'Ontario', 'Yukon', 'Ontario',
+'New Brunswick', 'British Columbia', 'Manitoba', 'Yukon',
+'British Columbia', 'Manitoba', 'Yukon',
+'Newfoundland and Labrador', 'Ontario', 'Yukon', 'Ontario',
+'AB', 'Nova Scotia', 'Newfoundland and Labrador', 'Yukon',
+'Nunavut', 'Northwest Territories', 'Nunavut', 'Yukon',
+'British Columbia', 'Ontario', 'AB', 'Saskatchewan',
+'Prince Edward Island', 'Saskatchewan',
+'Prince Edward Island', 'Alberta', 'Ontario', 'Alberta',
+'Manitoba', 'AB', 'British Columbia', 'Alberta']
+Alberta occurs 9 times in the modified list.</pre>
+        </div>
+      </li>
+    </ol>
+    <h3 id=3D"solution">Sample Solution</h3>
+    <p>When your program is finished, view the <a class=3D"solution" href=
+=3D"https://byui-cse.github.io/cse111-ww-course/week05/samples/check_soluti=
+on.html">sample
+        solution</a> for this assignment to
+      compare your solution to that one. Before looking at the sample
+      solution, you should work to complete this checkpoint program.
+      However, if you have worked on it for at least an hour and are still
+      having problems, feel free to use the sample solution to help you
+      finish your program.</p>
+    <h3 id=3D"submit">Submission</h3>
+    <p>Continue to the next activity.</p>
+
+    <h3>Useful Links:</h3>
+    <ul>
+      <li>Return to: <a href=3D"https://byui-cse.github.io/cse111-ww-course=
+/week05/index.html">Week Overview</a> | <a href=3D"https://byui-cse.github.=
+io/cse111-ww-course/index.html">Course Home</a></li>
+    </ul>
+  </main>
+  <footer>
+    <p>Copyright =C2=A9 Brigham Young University-Idaho | All rights reserve=
+d</p>
+  </footer>
+ =20
+ =20
+  &gt;
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true" s=
+tyle=3D"visibility: visible !important;"><template shadowmode=3D"open"><div=
+ aria-label=3D"grammarly-integration" role=3D"group" tabindex=3D"-1" class=
+=3D"grammarly-desktop-integration" data-content=3D"{&quot;mode&quot;:&quot;=
+full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></d=
+iv></template></grammarly-desktop-integration></html>
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse111-ww-course/images/byui-logo.svg
+
+<?xml version=3D"1.0" encoding=3D"UTF-8" standalone=3D"no"?>
+<svg
+   xmlns:dc=3D"http://purl.org/dc/elements/1.1/"
+   xmlns:cc=3D"http://creativecommons.org/ns#"
+   xmlns:rdf=3D"http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg=3D"http://www.w3.org/2000/svg"
+   xmlns=3D"http://www.w3.org/2000/svg"
+   viewBox=3D"0 0 2254.3066 1454.6"
+   height=3D"1454.6"
+   width=3D"2254.3066"
+   xml:space=3D"preserve"
+   id=3D"svg2"
+   version=3D"1.1"><metadata
+     id=3D"metadata8"><rdf:RDF><cc:Work
+         rdf:about=3D""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource=3D"http://purl.org/dc/dcmitype/StillImage" /></cc:W=
+ork></rdf:RDF></metadata><defs
+     id=3D"defs6"><clipPath
+       id=3D"clipPath18"
+       clipPathUnits=3D"userSpaceOnUse"><path
+         id=3D"path16"
+         d=3D"M 0,1090.947 H 1690.728 V 0 H 0 Z" /></clipPath></defs><g
+     transform=3D"matrix(1.3333333,0,0,-1.3333333,0,1454.6)"
+     id=3D"g10"><g
+       id=3D"g12"><g
+         clip-path=3D"url(#clipPath18)"
+         id=3D"g14"><g
+           transform=3D"translate(134.1191,999.5405)"
+           id=3D"g20"><path
+             id=3D"path22"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 -0.065,-357.733 c 0,-11.592 0.692,-15.716 -7.529,-2=
+0.831 -8.051,-4.987 -16.286,-5.81 -29.53,-8.071 0,0 -0.14,-0.01 -0.24,-0.03=
+1 -1.322,-0.335 -1.082,-5.333 0.24,-5.333 h 289.381 c 122.059,0 173.392,48.=
+442 173.392,123.987 0,55.869 -26.011,90.012 -77.515,102.848 -0.867,0.219 -0=
+.918,1.374 0,1.651 32.817,10.233 62.99,33.99 62.99,92.139 0,78.863 -53.285,=
+105.569 -169.507,105.569 l -278.644,0.003 c -1.319,0 -1.59,-4.987 -0.261,-5=
+.32 0.103,-0.02 0.239,-0.048 0.239,-0.048 13.255,-2.254 21.493,-3.076 29.53=
+3,-8.067 C 0.695,15.665 0,11.599 0,0 m 135.782,-300.322 v 85.939 c 0,5.762 =
+-0.699,10.03 -0.699,10.03 0,0 5.036,-0.699 10.054,-0.699 h 47.367 c 37.771,=
+0 83.996,0 83.996,-52.316 0,-38.693 -33.095,-52.276 -77.642,-52.276 h -53.7=
+31 c -5.07,0 -9.913,-0.75 -9.913,-0.75 0,0 0.568,5.156 0.568,10.072 m 0,170=
+.487 v 74.278 c 0,5.745 -0.829,10.198 -0.829,10.198 0,0 5.186,-0.829 10.222=
+,-0.829 h 55.995 c 42.629,0 67.637,-6.615 67.637,-45.349 0,-25.178 -15.529,=
+-47.647 -65.899,-47.647 h -57.733 c -5.039,0 -10.044,-0.644 -10.044,-0.644 =
+0,0 0.651,4.858 0.651,9.993" /></g><g
+           transform=3D"translate(1592.1731,999.53)"
+           id=3D"g24"><path
+             id=3D"path26"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 c 0,11.603 -0.651,15.676 7.55,20.773 8.063,4.991 16=
+.299,5.814 29.549,8.068 0,0 0.123,0.027 0.247,0.048 1.33,0.332 1.075,5.316 =
+-0.247,5.316 l -213.465,0.011 c -1.322,0 -1.582,-4.989 -0.24,-5.317 0.096,-=
+0.027 0.233,-0.052 0.233,-0.052 13.47,-1.692 19.766,-3.069 27.789,-8.064 8.=
+214,-5.09 7.516,-9.201 7.516,-20.793 v -214.986 c 0,-49.008 -28.056,-86.7 -=
+83.812,-86.7 -55.755,0 -83.832,37.692 -83.832,86.7 l 0.007,214.945 c 0,11.5=
+92 -0.678,15.727 7.529,20.821 8.051,4.984 14.744,6.228 27.775,8.071 0,0 0.1=
+58,0.027 0.247,0.048 1.343,0.329 1.083,5.316 -0.253,5.316 l -201.428,-0.01 =
+c -1.514,0 -1.199,-5.015 0.035,-5.286 0.144,-0.031 0.267,-0.062 0.267,-0.06=
+2 7.378,-0.455 12.421,-0.877 16.936,-4.734 6.722,-5.704 7.817,-12.514 7.817=
+,-24.113 l -0.013,-211.321 c 0,-101.895 55.742,-188.385 224.913,-188.385 16=
+9.158,0 224.88,86.49 224.88,188.385 z" /></g><g
+           transform=3D"translate(945.3645,607.5416)"
+           id=3D"g28"><path
+             id=3D"path30"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"M 0,0 C 1.343,0 1.617,4.998 0.315,5.323 0.171,5.354 0.027=
+,5.354 0.027,5.354 c -13.209,2.261 -21.444,3.083 -29.515,8.071 -8.2,5.124 -=
+7.523,9.239 -7.523,20.831 v 135.758 l 147.604,219.172 c 8.085,12.021 13.237=
+,18.297 19.896,23.884 1.124,0.959 3.837,2.751 5.489,3.802 6.09,3.053 8.433,=
+3.758 15.97,3.985 0,0 0.11,0.04 0.226,0.044 1.356,0.174 1.747,5.285 0.212,5=
+.285 l -199.071,0.018 c -1.616,0 -1.301,-5.204 0.096,-5.344 0.083,-0.003 0.=
+233,-0.052 0.233,-0.052 9.654,0 21.555,-0.089 19.636,-13.952 -1.123,-13.439=
+ -58.469,-96.422 -78.92,-127.934 -2.925,-4.505 -5.2,-9.17 -6.2,-14.836 -0.7=
+26,5.573 -4.22,11.263 -6.601,14.781 -28.487,42.409 -77.211,111.179 -78.619,=
+128.016 -1.171,14.385 9.969,13.974 19.626,13.974 0,0 0.133,0.044 0.26,0.054=
+ 1.374,0.13 1.885,5.293 0.253,5.293 l -209.045,-0.011 c -1.254,0 -1.107,-4.=
+812 0.12,-5.282 0.099,-0.041 0.257,-0.051 0.257,-0.051 8.926,-0.911 13.795,=
+-0.281 24.246,-5.385 1.23,-0.593 4.152,-2.532 5.276,-3.488 6.646,-5.597 10.=
+711,-10.76 18.817,-22.784 l 147.388,-218.253 0.01,-136.684 c 0,-11.592 0.68=
+5,-15.717 -7.533,-20.831 -8.037,-4.998 -16.275,-5.82 -29.508,-8.081 0,0 -0.=
+158,0 -0.257,-0.031 C -228.486,4.998 -228.233,0 -226.89,0 Z" /></g><g
+           transform=3D"translate(412.7331,400.8765)"
+           id=3D"g32"><path
+             id=3D"path34"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 c -24.815,0 -35.154,-3.337 -38.048,-7.064 -2.478,-3=
+.275 -6.191,-21.506 -6.191,-81.859 v -61.614 c 0,-52.967 3.713,-73.596 9.08=
+5,-79.405 7.464,-7.845 16.954,-10.737 38.477,-10.737 81.037,0 118.263,38.45=
+ 118.263,116.198 C 121.586,-61.216 78.971,0 0,0 M 116.622,-213.404 C 88.104=
+,-241.925 56.67,-254.313 3.744,-254.313 c -18.221,0 -47.572,0.829 -62.877,0=
+.829 -15.323,0 -34.322,-0.829 -52.516,-0.829 -1.25,0 -1.661,4.919 0.411,5.3=
+72 16.108,1.644 23.168,4.11 28.108,7.016 5.416,2.891 8.674,9.934 8.674,91.3=
+88 v 60.36 c 0,81.468 -3.258,88.909 -8.674,91.417 -4.94,2.891 -12,5.33 -28.=
+108,7.029 -2.072,0.398 -1.661,5.365 -0.411,5.365 18.194,0 37.193,-0.83 52.5=
+16,-0.83 15.305,0 53.347,0.83 71.955,0.83 83.12,0 143.068,-55.817 143.068,-=
+130.675 0,-35.983 -14.456,-71.129 -39.268,-96.363" /></g><g
+           transform=3D"translate(750.1722,363.6259)"
+           id=3D"g36"><path
+             id=3D"path38"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 -36.397,-99.652 h 73.195 z m 51.264,-217.062 c -1.2=
+19,0 -1.637,4.919 0,5.372 12.792,1.232 20.684,3.706 20.684,9.906 0,7.044 -5=
+.375,25.631 -28.964,85.216 h -85.555 c -19.46,-53.378 -24.003,-73.637 -24.0=
+03,-82.324 0,-7.434 5.782,-11.155 23.589,-12.798 1.634,-0.453 1.216,-5.372 =
+0,-5.372 h -84.795 c -1.25,0 -2.066,4.919 0,5.372 12.421,1.232 19.841,3.706=
+ 26.028,7.823 4.162,3.33 11.582,9.127 41.355,90.581 l 21.93,60.36 c 12.823,=
+34.736 26.483,70.733 36.819,102.981 0.819,2.871 13.223,2.871 14.042,0 12.41=
+4,-35.989 23.174,-65.334 37.651,-102.981 l 23.551,-60.36 c 32.242,-81.454 3=
+7.641,-87.662 43.41,-91.389 7.043,-4.57 13.264,-5.783 24.842,-7.015 1.603,-=
+0.453 1.241,-5.372 0,-5.372 z" /></g><g
+           transform=3D"translate(1139.3108,146.5636)"
+           id=3D"g40"><path
+             id=3D"path42"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 c -1.686,0 -1.686,4.919 0.411,5.372 16.1,1.644 23.1=
+57,4.11 28.104,7.016 4.96,2.891 8.653,9.934 8.653,91.388 v 25.645 h -156.30=
+5 v -25.645 c 0,-81.454 3.761,-88.497 8.708,-91.388 4.96,-2.906 11.962,-5.3=
+72 28.117,-7.016 C -80.229,4.919 -80.229,0 -81.475,0 h -105.051 c -1.254,0 =
+-1.651,4.919 0.432,5.372 16.1,1.644 23.17,4.11 28.103,7.016 5.358,2.891 8.6=
+88,9.934 8.688,91.388 v 60.36 c 0,81.468 -3.33,88.909 -8.688,91.417 -4.933,=
+2.891 -12.003,5.33 -28.103,7.029 -2.083,0.397 -1.686,5.365 -0.432,5.365 h 1=
+05.051 c 1.246,0 1.246,-4.968 -0.837,-5.365 -16.155,-1.699 -23.157,-4.138 -=
+28.117,-7.029 -4.947,-2.508 -8.708,-9.949 -8.708,-91.417 v -19.41 H 37.168 =
+v 19.41 c 0,81.468 -3.693,88.909 -8.653,91.417 -4.947,2.891 -12.004,5.33 -2=
+8.104,7.029 -2.097,0.397 -2.097,5.365 -0.411,5.365 h 104.619 c 1.644,0 1.64=
+4,-4.968 -0.405,-5.365 -16.175,-1.699 -23.198,-4.138 -28.179,-7.029 -4.933,=
+-2.508 -8.687,-9.949 -8.687,-91.417 v -60.36 c 0,-81.454 3.754,-88.497 8.68=
+7,-91.388 C 81.016,9.482 88.039,7.016 104.214,5.372 106.263,4.919 106.263,0=
+ 104.619,0 Z" /></g><g
+           transform=3D"translate(1463.4713,401.6981)"
+           id=3D"g44"><path
+             id=3D"path46"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 c -73.993,0 -98.398,-59.147 -98.398,-112.491 0,-67.=
+416 42.574,-129.831 108.716,-129.831 73.652,0 98.028,59.14 98.028,112.498 C=
+ 108.346,-62.47 66.176,0 0,0 m 2.083,-257.649 c -78.557,0 -134.819,58.318 -=
+134.819,133.176 0,71.122 56.262,139.765 140.643,139.765 78.933,0 134.778,-5=
+8.297 134.778,-133.154 0,-71.13 -55.845,-139.787 -140.602,-139.787" /></g><=
+g
+           transform=3D"translate(96.2659,514.6551)"
+           id=3D"g48"><path
+             id=3D"path50"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 c -1.908,0 -3.466,-1.552 -3.466,-3.446 0,-1.929 1.5=
+58,-3.49 3.466,-3.49 h 1486.911 c 1.925,0 3.48,1.561 3.48,3.49 0,1.894 -1.5=
+55,3.446 -3.48,3.446 z" /></g><g
+           transform=3D"translate(95.9509,146.6183)"
+           id=3D"g52"><path
+             id=3D"path54"
+             style=3D"fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:=
+none"
+             d=3D"m 0,0 c -1.237,0 -1.237,4.94 0.435,5.378 16.104,1.659 26.=
+877,4.104 31.841,7.03 4.964,2.884 8.677,9.907 8.677,91.355 v 60.36 c 0,81.4=
+27 -3.713,88.874 -8.677,91.375 -4.964,2.891 -15.737,5.344 -31.841,7.03 -1.6=
+72,0.411 -1.672,5.371 -0.435,5.371 h 111.631 c 1.24,0 1.652,-4.96 -0.411,-5=
+.371 -16.107,-1.686 -26.46,-4.139 -31.403,-7.03 -5.378,-2.501 -9.119,-9.948=
+ -9.119,-91.375 v -60.36 c 0,-81.448 3.741,-88.471 9.119,-91.355 C 84.76,9.=
+482 95.113,7.037 111.22,5.378 113.283,4.94 112.871,0 111.631,0 Z" /></g></g=
+></g></g></svg>
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/vs2015.min.css
+
+@charset "utf-8";
+
+pre code.hljs { display: block; overflow-x: auto; padding: 1em; }
+
+code.hljs { padding: 3px 5px; }
+
+.hljs { background: rgb(30, 30, 30); color: rgb(220, 220, 220); }
+
+.hljs-keyword, .hljs-literal, .hljs-name, .hljs-symbol { color: rgb(86, 156=
+, 214); }
+
+.hljs-link { color: rgb(86, 156, 214); text-decoration: underline; }
+
+.hljs-built_in, .hljs-type { color: rgb(78, 201, 176); }
+
+.hljs-class, .hljs-number { color: rgb(184, 215, 163); }
+
+.hljs-meta .hljs-string, .hljs-string { color: rgb(214, 157, 133); }
+
+.hljs-regexp, .hljs-template-tag { color: rgb(154, 83, 52); }
+
+.hljs-formula, .hljs-function, .hljs-params, .hljs-subst, .hljs-title { col=
+or: rgb(220, 220, 220); }
+
+.hljs-comment, .hljs-quote { color: rgb(87, 166, 74); font-style: italic; }
+
+.hljs-doctag { color: rgb(96, 139, 78); }
+
+.hljs-meta, .hljs-meta .hljs-keyword, .hljs-tag { color: rgb(155, 155, 155)=
+; }
+
+.hljs-template-variable, .hljs-variable { color: rgb(189, 99, 197); }
+
+.hljs-attr, .hljs-attribute { color: rgb(156, 220, 254); }
+
+.hljs-section { color: gold; }
+
+.hljs-emphasis { font-style: italic; }
+
+.hljs-strong { font-weight: 700; }
+
+.hljs-bullet, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-id,=
+ .hljs-selector-pseudo, .hljs-selector-tag { color: rgb(215, 186, 125); }
+
+.hljs-addition { background-color: rgb(20, 66, 18); display: inline-block; =
+width: 100%; }
+
+.hljs-deletion { background-color: rgb(102, 0, 0); display: inline-block; w=
+idth: 100%; }
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse111-ww-course/styles/math.css
+
+@charset "utf-8";
+
+:root { --formula-font-size: 120%; }
+
+div.formula { white-space: nowrap; font-family: "Palatino Linotype", Palati=
+no, Garamond, serif; font-size: var(--formula-font-size); break-inside: avo=
+id !important; }
+
+div.inline.formula { display: inline-block; margin: 0px 0.5em; vertical-ali=
+gn: baseline; }
+
+div.block.formula { margin: 1em 0px; vertical-align: middle; text-align: ce=
+nter; }
+
+div.group { display: table; margin: 0px auto; }
+
+div.group > div.formula { margin: 1em 0px; vertical-align: middle; }
+
+div.formula div { display: inline-block; vertical-align: middle; text-align=
+: center; }
+
+div.formula .baseline { vertical-align: baseline; }
+
+div.formula sup, div.formula sub { margin-left: 0.12em; }
+
+div.formula sup.two { position: relative; top: -0.4em; left: -0.2em; }
+
+div.formula div.supsub { font-size: smaller; margin-left: 0.12em; line-heig=
+ht: 0.8; vertical-align: -0.35em; text-align: left; }
+
+div.formula span.abs::before, div.formula span.abs::after { font-size: 140%=
+; font-weight: 100; vertical-align: middle; content: "|"; }
+
+div.formula .paren::before { display: inline-block; padding-left: 0.1em; co=
+ntent: "("; font-weight: 100; transform: scale(1.2, 1.2); }
+
+div.formula .paren::after { display: inline-block; padding-left: 0.1em; con=
+tent: ")"; font-weight: 100; transform: scale(1.2, 1.2); }
+
+div.formula .paren.onePlus::before { padding-left: 0.2em; padding-right: 0.=
+1em; transform: scale(1.5, 1.8); }
+
+div.formula .paren.onePlus::after { padding-left: 0.1em; padding-right: 0.2=
+em; transform: scale(1.5, 1.8); }
+
+div.formula .paren.two::before { padding-left: 0.2em; padding-right: 0.1em;=
+ transform: scale(1.5, 2); }
+
+div.formula .paren.two::after { padding-left: 0.1em; padding-right: 0.2em; =
+transform: scale(1.5, 2); }
+
+div.formula div.paren { vertical-align: baseline; }
+
+div.formula div.radic { }
+
+div.formula div.radic.one > div:first-child { margin-right: -0.25em; }
+
+div.formula div.radic.onePlus > div:first-child { transform: scale(1.1, 1.6=
+); }
+
+div.formula div.radic.two > div:first-child { transform: scale(1.8, 3); mar=
+gin-right: 0.2em; }
+
+div.formula div.radic > div:last-child { border-top: 1px solid; padding: 0p=
+x 0.2em; }
+
+div.formula div.sum > div > span { display: block; }
+
+div.formula div.sum > div > span.index { font-size: smaller; }
+
+div.formula div.sum > div > span.one { margin: -0.3em 0px -0.2em; font-size=
+: 110%; }
+
+div.formula div.sum > div > span.onePlus { margin: -0.3em 0px -0.2em; font-=
+size: 130%; }
+
+div.formula div.sum > div > span.two { margin: 0.3em 0px 1em; transform: sc=
+ale(2.5, 3.2); }
+
+div.formula div.sum > div:last-child { vertical-align: -1.2em; }
+
+div.formula div.fract { }
+
+div.formula div.fract > div:first-child { display: block; padding-bottom: 0=
+.1em; }
+
+div.formula div.fract > div:last-child { display: block; border-top: 1px so=
+lid; }
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://byui-cse.github.io/cse111-ww-course/styles/course.css
+
+@charset "utf-8";
+
+:root { --alink: #0000ee; --avisited: #551a8b; --lightgray: rgb(240, 240, 2=
+40); --gray: rgb(150, 150, 150); --darkgray: rgb(50, 50, 50); --byuiblue: r=
+gb(0, 110, 182); --navy: rgb(0, 0, 128); --red: rgb(182, 0, 19); --mustard:=
+ rgb(182, 163, 0); --callout: rgb(230, 243, 254); --error: rgb(255, 215, 22=
+5); --warning: rgb(255, 255, 225); --details: rgb(238, 254, 238); --padd: 0=
+.5rem; --bord: 1px solid rgba(0, 0, 0, 0.1); --formula-font-size: 120%; --c=
+oral: rgb(255, 127, 80); --lightest-byui-blue: rgb(235, 244, 249); --user-i=
+nput-bk-color: var(--coral); --user-input-fg-color: white; --console-bk-col=
+or: var(--lightest-byui-blue); --border-color: rgb(112, 112, 112); --dfn-fg=
+-color: var(--coral); }
+
+body { font: 400 16px / 1.5 Montserrat, Helvetica, sans-serif; margin: 0px;=
+ -webkit-font-smoothing: antialiased; }
+
+.page { max-width: 960px; margin: 0px auto; padding: 0.5rem; }
+
+h1, h2, h3, h4, h5 { margin: 0px; }
+
+h1 { color: rgb(255, 255, 255); font-size: 1.1rem; margin-left: 1rem; font-=
+weight: normal; }
+
+#coursetitle { display: none; }
+
+h2 { font-size: 1.6rem; margin: 1.2rem 0.25rem; }
+
+h3 { font-size: 1.4rem; margin: 0.75rem 0.5rem; }
+
+h4 { font-size: 1.2rem; margin: 0.75rem; }
+
+h5 { font-size: 1rem; color: var(--navy); margin: 0.75rem 1.2rem; }
+
+a { color: var(--navy); }
+
+a:link { color: var(--alink); }
+
+a:active { color: var(--red); }
+
+a:visited, a:focus { color: var(--avisited); }
+
+p { margin: 1rem; }
+
+h4 + p { margin-left: 1.25rem; }
+
+h5 ~ p { margin-left: 1.5rem; }
+
+ol ol, ul ul { margin-top: 1rem; }
+
+li { margin-bottom: 0.5rem; }
+
+li ul li:nth-child(1) { margin-top: 0.5rem; }
+
+li ul li, li ol li { margin-bottom: 0.5rem; }
+
+li p { margin: 0px; }
+
+img { max-width: 100%; height: auto; }
+
+header { background-color: var(--byuiblue); padding: 0.5rem; }
+
+.logo { width: 50px; height: auto; background-color: rgb(0, 0, 0); padding:=
+ 12px 11px; position: absolute; top: 0px; right: 0px; }
+
+main { margin: 1.5rem 1rem; }
+
+nav { display: flex; width: fit-content; flex-wrap: wrap; }
+
+nav span { font-size: 0.8rem; font-weight: 700; background-color: var(--lig=
+htgray); margin: 0px 0.25rem 0.25rem; text-align: center; }
+
+nav span a:link, nav span a:visited, nav span a:active, nav span a:focus { =
+color: rgb(0, 0, 0); text-decoration: none; display: block; padding: 0.5rem=
+ 1rem; order: var(--bord); }
+
+nav span a:hover { background-color: var(--byuiblue); color: rgb(255, 255, =
+255); }
+
+footer { border-top: var(--bord); font-size: smaller; background-color: var=
+(--lightgray); padding: 0.5rem; text-align: center; }
+
+footer p { margin: 0px 0px 0px 0.5rem; }
+
+details { margin: 1rem 2rem; border: var(--bord); padding: 0.5rem; color: r=
+gb(0, 0, 0); background-color: var(--details); }
+
+details p { margin: 0.5rem 0px 0px 0.5rem; }
+
+pre { line-height: 1.2; margin: 0.5rem 1rem; }
+
+pre code { border-top-color: ; border-top-style: ; border-top-width: ; bord=
+er-right-color: ; border-right-style: ; border-right-width: ; border-bottom=
+-color: ; border-bottom-style: ; border-bottom-width: ; border-image-source=
+: ; border-image-slice: ; border-image-width: ; border-image-outset: ; bord=
+er-image-repeat: ; border-left: 3px solid var(--byuiblue); padding: 0.75rem=
+ !important; }
+
+details pre code { border-left: 3px solid rgb(50, 100, 50); }
+
+code { font-family: "Courier New", Courier, monospace; font-weight: 700; }
+
+kbd { color: red; }
+
+mark { padding: 0.5rem; font-style: italic; }
+
+mark::before { content: "=E2=9A=92=EF=B8=8F"; }
+
+figure { margin: 1rem 0px; text-align: center; }
+
+figcaption { font-size: smaller; margin: 0px 0px 1rem; }
+
+.video-container { position: relative; overflow: hidden; height: 0px; paddi=
+ng-bottom: calc(var(--aspect-ratio, 0.5625) * 100%); margin: 0.5em auto; }
+
+.video-container iframe { position: absolute; top: 0px; left: 0px; width: 1=
+00%; height: 100%; }
+
+table { border-collapse: collapse; margin: 1rem auto; width: 80%; border: v=
+ar(--bord); background-color: var(--lightgray); }
+
+table caption { color: var(--navy); font-weight: 700; }
+
+th { background-color: var(--darkgray); color: rgb(255, 255, 255); }
+
+th, td { border: var(--bord); padding: 0.5rem; text-align: center; }
+
+.active { background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); text-d=
+ecoration: none; }
+
+.active a:link, .active a:visited, .active a:active, .active a:focus { colo=
+r: rgb(255, 255, 255); }
+
+td.detailed-text-cell { text-align: left; font-size: 90%; }
+
+td.detailed-text-cell ul, td.detailed-text-cell ol { padding-left: 1rem; ma=
+rgin-top: 0.25rem; margin-bottom: 0.25rem; }
+
+td.detailed-text-cell li { margin-bottom: 0.1rem; }
+
+.team::after { content: " =F0=9F=91=A5"; }
+
+.callout { margin: 1rem; border: var(--bord); padding: 0.5rem; color: rgb(0=
+, 0, 0); }
+
+.callout p { margin: 1rem; }
+
+.callout-title { font-weight: bold; font-size: 1.1rem; margin-top: 1rem; ma=
+rgin-left: 1rem; }
+
+.reference { background-color: var(--lightgray); margin-left: 1.5rem; margi=
+n-right: 1.5rem; }
+
+.info { background-color: var(--callout); }
+
+.error { background-color: var(--error); }
+
+.warning { background-color: var(--warning); }
+
+.discussion { background-color: var(--details); }
+
+.discussion h5 { color: var(--black); }
+
+.question { color: var(--navy); border-top: var(--bord); }
+
+blockquote { border-left: 3px solid var(--darkgray); }
+
+.smaller { font-size: smaller; }
+
+.floatright { float: right; margin: 0px 0px 0.5rem 0.5rem; border: var(--bo=
+rd); }
+
+.step-reset { counter-reset: step 0; }
+
+.step { counter-increment: step 1; }
+
+.step::before { content: "Step " counter(step) ":  "; font-size: x-large; c=
+olor: var(--navy); }
+
+.part-reset { counter-reset: part 0; }
+
+.part { counter-increment: part 1; margin-left: 1rem; }
+
+.part::before { content: "Part " counter(part) ":  "; font-size: x-large; c=
+olor: var(--navy); }
+
+.check { list-style: "=E2=98=91=EF=B8=8F "; }
+
+#weeks { list-style: none; padding-left: 1rem; }
+
+#weeks li { margin-left: 0px; margin-right: 1rem; border: 1px solid rgba(0,=
+ 0, 0, 0.1); padding: 0.25rem 0.5rem; }
+
+#weeks li a { display: block; text-decoration: none; color: rgb(0, 0, 0); }
+
+#weeks li:hover { background-color: var(--byuiblue); }
+
+#weeks li a:hover { font-weight: 700; text-decoration: underline; color: rg=
+b(255, 255, 255); }
+
+@media screen and (min-width: 600px) {
+  .page { position: relative; }
+  .logo { width: 75px; padding: 18px 15px; top: -0.5rem; right: 1rem; }
+  h1 { font-size: 1.3rem; }
+  #coursetitle { display: inline; }
+}
+
+@media screen and (min-width: 800px) {
+  .logo { width: 100px; padding: 22px 20px; }
+  h1 { font-size: 1.75rem; margin-left: 0px; }
+}
+
+pre.console { border: 1px solid var(--border-color); background-color: var(=
+--console-bk-color); padding: 12px; }
+
+li pre.console { margin-left: 0px; }
+
+pre.console > span.input { border: 1px solid var(--border-color); padding: =
+0px 0.25em; background-color: var(--user-input-bk-color); color: var(--user=
+-input-fg-color); }
+
+pre.console > span.pass { color: green; }
+
+pre.console > span.fail { color: red; }
+
+dfn { color: var(--dfn-fg-color); }
+
+table.hljs-ln { width: 100%; background-color: inherit; }
+
+td.hljs-ln-numbers { text-align: right; color: rgb(204, 204, 204); border-r=
+ight: 1px solid rgb(153, 153, 153); vertical-align: top; padding-right: 10p=
+x; margin-right: 5px; user-select: none; }
+
+td.hljs-ln-code { padding-left: 10px; text-align: left; margin-left: 5px; }
+
+code { white-space: pre-wrap; overflow: auto; }
+
+pre code.nohljsln { text-align: left; }
+
+.todo::before { content: "=E2=98=A0"; display: inline; color: white; backgr=
+ound-color: black; font-size: 200%; }
+
+ol.nested { list-style-type: none; counter-reset: item 0; }
+
+ol.nested li { display: block; }
+
+ol.nested li::before { content: counters(item, ".") " "; counter-increment:=
+ item 1; }
+
+ol.nested ol { list-style-type: none; counter-reset: subitem 0; margin-left=
+: 1em; }
+
+ol.nested ol li::before { content: counters(item, ".") "." counters(subitem=
+, ".") " "; counter-increment: subitem 1; }
+
+ol.nested li::marker { font-weight: bold; }
+
+.no-bullets { list-style-type: none; padding: 0px; margin: 0px; }
+
+.center-inline-img { vertical-align: middle; }
+
+#function_specs th, #function_specs td { text-align: left; vertical-align: =
+top; }
+
+.column-left { text-align: left; }
+
+code.no-hljs-copy + div.hljs-copy-container { display: none; }
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Montserrat; font-style: normal; font-weight: 400;=
+ font-display: swap; src: url("https://fonts.gstatic.com/s/montserrat/v31/J=
+TUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw0aXpsog.woff2") format("woff2"); unic=
+ode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E=
+-FE2F; }
+
+@font-face { font-family: Montserrat; font-style: normal; font-weight: 400;=
+ font-display: swap; src: url("https://fonts.gstatic.com/s/montserrat/v31/J=
+TUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw9aXpsog.woff2") format("woff2"); unic=
+ode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Montserrat; font-style: normal; font-weight: 400;=
+ font-display: swap; src: url("https://fonts.gstatic.com/s/montserrat/v31/J=
+TUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw2aXpsog.woff2") format("woff2"); unic=
+ode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0=
+, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Montserrat; font-style: normal; font-weight: 400;=
+ font-display: swap; src: url("https://fonts.gstatic.com/s/montserrat/v31/J=
+TUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw3aXpsog.woff2") format("woff2"); unic=
+ode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+=
+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+2=
+0AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Montserrat; font-style: normal; font-weight: 400;=
+ font-display: swap; src: url("https://fonts.gstatic.com/s/montserrat/v31/J=
+TUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2") format("woff2"); unicode=
+-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+=
+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+=
+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ta=
+VIGxA.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B=
+4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ka=
+VIGxA.woff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, =
+U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4sa=
+VIGxA.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ja=
+VIGxA.woff2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-3=
+8A, U+38C, U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ia=
+VIGxA.woff2") format("woff2"); unicode-range: U+307-308, U+590-5FF, U+200C-=
+2010, U+20AA, U+25CC, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5ca=
+VIGxA.woff2") format("woff2"); unicode-range: U+302-303, U+305, U+307-308, =
+U+310, U+312, U+315, U+31A, U+326-327, U+32C, U+32F-330, U+332-333, U+338, =
+U+33A, U+346, U+34D, U+391-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3=
+F0-3F1, U+3F4-3F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047=
+, U+2050, U+2057, U+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20D=
+C, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F,=
+ U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213=
+-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, =
+U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25=
+B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27F=
+F, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U=
++1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5Oa=
+VIGxA.woff2") format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20D=
+D-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21=
+E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A=
+, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29E=
+B, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+1=
+01A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1=
+D37F, U+1F000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, =
+U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F39=
+3-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3C=
+E, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, =
+U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1=
+F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4B=
+B, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4E=
+A-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1=
+F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, =
+U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6B=
+A, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1=
+F6F7-1F6FC, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1=
+F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1=
+F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1=
+FA80-1FA89, U+1FA8F-1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1=
+FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4va=
+VIGxA.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-1=
+29, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323=
+, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ua=
+VIGxA.woff2") format("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2=
+CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+=
+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7=
+FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4ga=
+VI.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-=
+2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122,=
+ U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-688b9fde-4f9c-4235-8d46-bdcbee3c36f5@mhtml.blink
+
+@charset "utf-8";
+
+.hljs-ln { border-collapse: collapse; }
+
+.hljs-ln td { padding: 0px; }
+
+.hljs-ln-n::before { content: attr(data-line-number); }
+------MultipartBoundary--1CRi5TeAZlnY8CAsqNda6ReFGGYmEXPmsSMXaWkICn------
